@@ -1,6 +1,7 @@
 import React from 'react'
 // import { useState } from 'react';
 // import {NavLink,Link,useNavigate} from 'react-router-dom';
+
 // import axios from "axios";
 // import swal from "sweetalert";
 import './header.css';
@@ -30,27 +31,27 @@ return(
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Our Project</a>
+                        <a class="nav-link active" aria-current="page" href="/ourproject">Our Project</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                        <a class="nav-link active" aria-current="page" href="/gallery">Gallery</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link active" aria-current="page" href="/aboutus">About Us</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                        <a class="nav-link active" aria-current="page" href="/contactus">Contact Us</a>
                         </li>
 
-                        <button><a href="#">Profile</a></button>
-                        <button><a href="#">Sign Out</a></button>
+                        <button><a href="/profile">Profile</a></button>
+                        <button><a href="/signout">Sign Out</a></button>
                     </ul>
             
                 </div>

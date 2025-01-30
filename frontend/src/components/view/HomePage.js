@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 // import axios from 'axios';
 // import { useState } from 'react';
 // import {NavLink,Link} from 'react-router-dom';
-import Header from './Headers/Header';
+
 
 import './home.css';
 
 import image1 from '../image/image1.png'
 import image2 from '../image/image2.png'
 import image3 from '../image/image3.png'
+import NotRegHeader from './Headers/NotRegHeader';
 
 
 const HomePage = () => {
@@ -19,7 +20,7 @@ const HomePage = () => {
 
         <div>
 
-            <Header />
+            <NotRegHeader/>
 
             <div class="container p-5">
        
@@ -105,6 +106,70 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div> 
+
+
+
+
+                <section id="aboutus" className="aboutus">
+                        <div class="container">   
+                            <div class="box">
+                                <div class="row">
+                            
+                                    <h2>About Us</h2>
+
+
+                                        <div id="about" href="#">
+
+                                            <p class="about">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                            aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                            molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                            aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                            molestias. 
+                                            </p>
+
+                                        </div>
+                                    
+
+                                    
+                
+                                </div>
+                            </div>
+                        </div> 
+                </section>
+
+
+                <section id="contactus" className="contactus">
+                    <div class="container">   
+                        <div class="box">
+                            <div class="row">
+                        
+                                <h2>Contact Us</h2>
+
+
+                                    <div id="about" href="#">
+
+                                        <p class="contact">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                        aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                        molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                        aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                        molestias. 
+                                        </p>
+
+                                    </div>
+                                
+
+                                
+            
+                            </div>
+                        </div>
+                    </div> 
+                </section>
 
 
             </div>
