@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 // import { useState } from 'react';
 // import {NavLink,Link} from 'react-router-dom';
 
-
 import './home.css';
 
 import image1 from '../image/image1.png'
@@ -29,13 +28,13 @@ const HomePage = () => {
                     <div id="welcomeNote" class="col-lg-6 col-md-12 mb-4 mb-md-0">
                         <h1 class="text-uppercase">Make Every Moment count with <span>CYN</span></h1>
 
-                        <p class="main">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                        aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                        </p>
+                            <p class="main">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                            </p>
                     </div>
   
                     <div id="image1" class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -108,37 +107,54 @@ const HomePage = () => {
                 </div> 
 
 
-
-
-                <section id="aboutus" className="aboutus">
-                        <div class="container">   
-                            <div class="box">
-                                <div class="row">
-                            
-                                    <h2>About Us</h2>
-
-
-                                        <div id="about" href="#">
-
-                                            <p class="about">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                            aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                            molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                            aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                            molestias. 
-                                            </p>
-
-                                        </div>
-                                    
-
-                                    
                 
+                    <div>  
+                    <h3 className='about'>About Us</h3>
+                        <div class="box">
+                    
+                        {/* <h3 className='about'>About Us</h3> */}
+                        
+                            {/* <div class="row"> */}
+                                                
+                                <div class="card-container">
+                                    <div class="card">
+                                        <img src={image1} class="card-img-top-home" alt="GR1"></img>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div> 
-                </section>
+
+
+                                <div class="card-container">
+                                    <div class="card" >
+                                        <img src={image3} class="card-img-top-home" alt="GR2"></img>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-container">
+                                    <div class="card" >
+                                        <img src={image3} class="card-img-top-home" alt="GR3"></img>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                                
+            
+                                                
+
+                            {/* </div> */}
+                                        
+                                                        
+                        </div>
+                    </div> 
+                
+
 
 
                 <section id="contactus" className="contactus">

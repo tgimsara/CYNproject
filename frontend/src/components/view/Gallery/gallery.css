@@ -1,0 +1,17 @@
+p{
+    text-align: left;
+}
+
+h2 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-weight:bold;
+    font-size: 43px;
+    font-weight: 1000;
+}
+
+
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 21, 148);
+}

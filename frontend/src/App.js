@@ -17,6 +17,13 @@ import Footer from './components/view/Footer';
 import SignUp from './components/view/Sign/SignUp';
 import SignIn from './components/view/Sign/SignIn';
 
+//projects
+import OurProjects from './components/view/Project/OurProjects';
+
+//gallery
+import Gallery from './components/view/Gallery/Gallery';
+import ViewGallery from './components/view/Gallery/ViewGallery';
+
 
 
 function App() {
@@ -35,6 +42,11 @@ function App() {
 
           <Route path='/signin' element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
+
+          <Route path='/ourproject' element={<OurProjects />} />
+
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/viewgallery' element={<ViewGallery />} />
 
 
         </Routes>
