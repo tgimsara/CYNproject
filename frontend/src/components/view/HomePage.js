@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 // import axios from 'axios';
 // import { useState } from 'react';
 // import {NavLink,Link} from 'react-router-dom';
@@ -8,6 +9,7 @@ import './home.css';
 import image1 from '../image/image1.png'
 import image2 from '../image/image2.png'
 import image3 from '../image/image3.png'
+import man1 from '../image/man1.jpg';
 import NotRegHeader from './Headers/NotRegHeader';
 
 
@@ -21,12 +23,11 @@ const HomePage = () => {
 
             <NotRegHeader/>
 
-            <div class="container p-5">
-       
-                <div class="row">
-              
-                    <div id="welcomeNote" class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h1 class="text-uppercase">Make Every Moment count with <span>CYN</span></h1>
+
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1 class="text-uppercase">Make Every Moment count with <span>CYN</span></h1>
 
                             <p class="main">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
@@ -35,160 +36,117 @@ const HomePage = () => {
                             molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
                             aliquam voluptatem veniam, est atque cumque eum delectus sint!
                             </p>
-                    </div>
-  
-                    <div id="image1" class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <img class="image1" src={image1} alt="Home" />
-                    </div>
-        
-                </div>
-      
+                        </div>
 
-                <div class="container">   
-                    <div class="box">
+                        <div class="col-lg-6">
+                            <img class="image1" src={image1} alt="Home" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vision-container">   
                         <div class="row">
-                    
-                            <h2>Our Vision</h2>
-                                
-                                    <div id="image2" class="col-lg-6 col-md-12 mb-4 mb-md-0">
+
+                                    <div class="col-lg-5">
                                         <img class="image2" src={image2} alt="Home" />
                                     </div>
 
-                                <div id="vision" class="col-lg-6 col-md-12 mb-4 mb-md-0">
-
-                                    <p class="first">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. 
-                                    </p>
-
-                                </div>
-        
-                        </div>
-                    </div>
-                </div> 
-
-
-
-
-                <div class="container">   
-                    <div class="box">
-                        <div class="row">
-                    
-                            <h2>Our Mission</h2>
-
-
-                                <div id="mission" class="col-lg-6 col-md-12 mb-4 mb-md-0">
-
-                                    <p class="second">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                    molestias. 
-                                    </p>
-
-                                </div>
-                                
-                                <div id="image3" class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                                    <img class="image3" src={image3} alt="Home" />
-                                </div>
-
-                               
-        
-                        </div>
-                    </div>
-                </div> 
-
-
-                
-                    <div>  
-                    <h3 className='about'>About Us</h3>
-                        <div class="box">
-                    
-                        {/* <h3 className='about'>About Us</h3> */}
-                        
-                            {/* <div class="row"> */}
-                                                
-                                <div class="card-container">
-                                    <div class="card">
-                                        <img src={image1} class="card-img-top-home" alt="GR1"></img>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="card-container">
-                                    <div class="card" >
-                                        <img src={image3} class="card-img-top-home" alt="GR2"></img>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="card-container">
-                                    <div class="card" >
-                                        <img src={image3} class="card-img-top-home" alt="GR3"></img>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                                
-            
-                                                
-
-                            {/* </div> */}
+                                    <div class="col-lg-7">
+                                        <div className="sec1">
+                                            <div className="card-box1">
+                                                <div className="card-content1">
+                                                    <h3>Our Vision</h3>
+                                                    <p>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!.
+                                                    </p>
                                         
-                                                        
-                        </div>
-                    </div> 
-                
+                                                </div>
+                                            </div>
+                                        </div>
+                                                            
+                                        <div className="sec1">
+                                            <div className="card-box1">
+                                                <div className="card-content1">
+                                                    <h3>Our Mission</h3>
+                                                    <p>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                                                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                                                    </p>
+                                        
+                                                </div>
+                                            </div>
+                                        </div>            
+                                                            
+                                         
+                                </div>
+        
+                    </div>
+                </div> 
 
 
-
-                <section id="contactus" className="contactus">
-                    <div class="container">   
-                        <div class="box">
-                            <div class="row">
-                        
-                                <h2>Contact Us</h2>
-
-
-                                    <div id="about" href="#">
-
-                                        <p class="contact">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                        aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                        molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                                        aliquam voluptatem veniam, est atque cumque eum delectus sint!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                        molestias. 
-                                        </p>
-
-                                    </div>
-                                
-
-                                
-            
+                <div className="team-section">
+                    <div className="team-container">
+                        <div className="row">
+                            <div className="title2">
+                                <h2>Our Team</h2>
                             </div>
                         </div>
-                    </div> 
-                </section>
 
+                        <div className="team-card">
+                            <div className="card1">
+                                <div className="image-section">
+                                    <img class="man1" src={man1} alt="Home" />
+                                </div>
+                                <div className="team-content">
+                                    <h3>Gayan Rajapaksha</h3>
+                                    <h4>Manager</h4>
+                                    <p> 
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                    molestias.
+                                    </p>
+                                </div>
+                            </div>
 
-            </div>
+                            <div className="card1">
+                                <div className="image-section">
+                                    <img class="man1" src={man1} alt="Home" />
+                                </div>
+                                <div className="team-content">
+                                <h3>Gayan Rajapaksha</h3>
+                                    <h4>Manager</h4>
+                                    <p> 
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                    molestias.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="card1">
+                                <div className="image-section">
+                                    <img class="man1" src={man1} alt="Home" />
+                                </div>
+                                <div className="team-content">
+                                <h3>Gayan Rajapaksha</h3>
+                                    <h4>Manager</h4>
+                                    <p> 
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                                    molestias.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
 
 
         </div>

@@ -10,7 +10,7 @@ const SignUp = () =>{
 return (
 
         <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
-        <h2 className="text-xl font-bold mb-4">Sign Up</h2>
+        {/* <h2 className="text-xl font-bold mb-4">Sign Up</h2>
         <form>
           <div className="mb-4 flex space-x-4">
             <div className="w-1/2">
@@ -56,7 +56,7 @@ return (
           >
             Sign Up
           </button>
-        </form>
+        </form> */}
       </div>
   
 

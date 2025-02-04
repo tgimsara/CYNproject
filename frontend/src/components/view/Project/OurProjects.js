@@ -16,18 +16,11 @@ return(
 
     <div>
         <Header/>
-            <div id="project" className="project">
-
-                {/* <video src={BgVideo} autoPlay muted loop class="video-bg" /> */}
-                <div className="bg-overlay"></div>
-
+           
                 <div className="home-text">
                     <h2>Our Projects</h2>
                 </div>
 
-                {/* <div id="explore" className="home-btn"><a href="#category">Explore</a></div> */}
-
-                </div>
 
                 <div id="category" className="section-container">
                     <div className="sec-card">

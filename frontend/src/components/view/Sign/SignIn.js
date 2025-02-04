@@ -10,7 +10,7 @@ const SignIn = () =>{
 return (
 
     <div class="container">
-      <div class="form-box login"></div>
+      {/* <div class="form-box login"></div>
         <form action="#">
           <h4>Sign In</h4>
             <div class="input-box">
@@ -24,7 +24,7 @@ return (
             </div>
 
             <button type="submit" class="btn1">Sign In</button>
-        </form>        
+        </form>         */}
     </div>
 
   )

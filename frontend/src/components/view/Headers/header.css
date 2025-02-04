@@ -34,7 +34,7 @@
 }
 
 button{
-    background-color: black; 
+    background-color: rgb(7, 5, 68); 
     margin-left: 10px;
     border-radius: 10px;
     padding: 6px;
@@ -45,6 +45,7 @@ button a{
     color: white;
     font-weight: bold;
     font-size: 15px;
+    
 }
 
 .logoimg{

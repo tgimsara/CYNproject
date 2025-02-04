@@ -19,10 +19,16 @@ import SignIn from './components/view/Sign/SignIn';
 
 //projects
 import OurProjects from './components/view/Project/OurProjects';
+import ViewProjects from './components/view/Project/ViewProjects';
 
 //gallery
 import Gallery from './components/view/Gallery/Gallery';
 import ViewGallery from './components/view/Gallery/ViewGallery';
+
+//partners
+import PartnerCategory from './components/view/Partners/ParnerCategory';
+import Local from './components/view/Partners/Local';
+import International from './components/view/Partners/International';
 
 
 
@@ -40,13 +46,18 @@ function App() {
           <Route element={<NotRegHeader />} />
           <Route element={<Footer />} />
 
-          <Route path='/signin' element={<SignIn />} />
-          <Route path='/signup' element={<SignUp />} />
+          <Route path='/signin' element={<HomePage />} />
+          <Route path='/signup' element={<HomePage />} />
 
           <Route path='/ourproject' element={<OurProjects />} />
+          <Route path='/viewproject' element={<ViewProjects />} />
 
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/viewgallery' element={<ViewGallery />} />
+
+          <Route path='/partner' element={<PartnerCategory />} />
+          <Route path='/local' element={<Local />} />
+          <Route path='/international' element={<International />} />
 
 
         </Routes>
