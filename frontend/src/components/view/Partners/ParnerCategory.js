@@ -14,11 +14,11 @@ const PartnerCategory = () => {
         <div>
              <Header/>
           
-                {/* <div class="p-grid col-12">
-                    <div class="row">
+                <div>
+                    <div class="row pt-5 mt-5">
                         
-                            <div class="col-6 p-pt-5">
-                            <div class="card">
+                            <div class="col-6">
+                            <div class="card" style={{ borderRadius: "35px", margin: "0px 0px 0px 90px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -31,8 +31,8 @@ const PartnerCategory = () => {
                         
                         
                         
-                            <div class="col-6 p-pt-5">
-                            <div class="card">
+                            <div class="col-6">
+                            <div class="card" style={{ margin : "0px 90px 0px 0px" }}>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -44,13 +44,9 @@ const PartnerCategory = () => {
                             </div>
                         
                     </div>
-                </div> */}
+                </div>
 
 
-                    <div class="grid">
-                        <div class="col-6">.g-col-6</div>
-                        <div class="col-6">.g-col-6</div>
-                    </div>
 
           </div>
       )
