@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
-import './gallery.css';
 import Header from '../Headers/Header';
 import image4 from '../../image/image4.jpeg';
 import image5 from '../../image/image5.png'
@@ -15,7 +14,7 @@ const ViewGallery = () => {
     <div>
          <Header/>
 
-            <div>
+            {/* <div>
                 <div>
                     <h1 class="text-uppercase">International Study Tour for Proffessional Beauticians 2024</h1>
                 
@@ -35,7 +34,7 @@ const ViewGallery = () => {
                         <div id="image1" class="col-lg-6 col-md-12 mb-4 mb-md-0">
                             <img class="image5" src={image5} alt="Home" />
                         </div>
-            </div>
+            </div> */}
 
 
     </div>

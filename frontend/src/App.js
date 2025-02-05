@@ -18,7 +18,7 @@ import SignUp from './components/view/Sign/SignUp';
 import SignIn from './components/view/Sign/SignIn';
 
 //projects
-import OurProjects from './components/view/Project/OurProjects';
+import Programs from './components/view/Project/Programs';
 import ViewProjects from './components/view/Project/ViewProjects';
 
 //gallery
@@ -49,7 +49,7 @@ function App() {
           <Route path='/signin' element={<HomePage />} />
           <Route path='/signup' element={<HomePage />} />
 
-          <Route path='/ourproject' element={<OurProjects />} />
+          <Route path='/program' element={<Programs />} />
           <Route path='/viewproject' element={<ViewProjects />} />
 
           <Route path='/gallery' element={<Gallery />} />

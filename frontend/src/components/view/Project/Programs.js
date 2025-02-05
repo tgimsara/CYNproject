@@ -18,7 +18,7 @@ return(
         <Header/>
            
                 <div className="home-text">
-                    <h2>Our Projects</h2>
+                <h3 class="text-uppercase" style= {{ margin : "50px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Key Initiatives & Programs</h3>
                 </div>
 
 
@@ -26,10 +26,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 01</h3>
+                        <h3>Global Youth Leadership Programs</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        International leadership training and exchange programs.
                         </p>
                         <Link aria-current="page" to={"/"}>View</Link>
                         </div>
@@ -39,10 +38,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 02</h3>
+                        <h3>Community Engagement & Volunteerism</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        Encouraging active youth participation in social impact projects.
                         </p>
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
@@ -52,10 +50,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 03</h3>
+                        <h3>Capacity Building & Skill Development</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        Workshops and mentorship programs in leadership, entrepreneurship, and professional development.
                         </p>
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
@@ -65,10 +62,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 04</h3>
+                        <h3>Policy Advocacy & Research</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        Supporting youth-led research and policymaking to amplify young voices in governance and social change.
                         </p>
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
@@ -78,10 +74,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 05</h3>
+                        <h3>Cultural & Educational Exchange Programs</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        Strengthening global understanding through study tours, international summits, and learning partnerships.
                         </p>
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
@@ -91,10 +86,9 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Project 06</h3>
+                        <h3>Climate & Sustainability Initiatives</h3>
                         <p>
-                            Applicant User Profile allows you to edit user profiles,
-                            search for jobs, apply them, view their statuses and much more.
+                        Addressing climate action (SDG 13) through youth-led sustainability projects.
                         </p>
                         <Link aria-current="page" to={""}>View</Link>
                         </div>

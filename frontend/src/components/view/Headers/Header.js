@@ -35,7 +35,7 @@ return(
                         </li>
                         
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/ourproject">Our Project</a>
+                        <a class="nav-link active" aria-current="page" href="/program">Programs</a>
                         </li>
 
                         <li class="nav-item">

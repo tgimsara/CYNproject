@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
-import './gallery.css';
 import Header from '../Headers/Header';
 import image4 from '../../image/image4.jpeg';
 
@@ -14,72 +13,44 @@ const Gallery = () => {
     <div>
          <Header/>
         
-
-                <div className="gallery-text">
-                    <h2>Gallery</h2>
-                </div>
-                  <div class="album py-5 bg-body-tertiary">
-                    <div class="container">
-                      <div class="row row-cols-1 row-cols row-cols-md-3 g-3">
-                        
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <h4 className="text-dark" ><a href="#" ></a>1. Malaysia Tour</h4>
-                            <a href="#"><img class="bd-placeholder-img card-img-top" width="100%" height="225" src={image4} /></a>
-                              <div class="card-body">
-                                <p class="card-text" > International Study Tour for Proffessional Beauticians 2024 </p>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                      <Link to="/viewgallery">
-                                      <button type="button" class="btn btn-sm btn-outline-secondary">See More..</button>
-                                      </Link>
-                                    </div> 
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
-
-
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <h4 className="text-dark" ><a href="#" ></a>1. Malaysia Tour</h4>
-                            <a href="#"><img class="bd-placeholder-img card-img-top" width="100%" height="225" src={image4} /></a>
-                              <div class="card-body">
-                                <p class="card-text" > International Study Tour for Proffessional Beauticians 2024 </p>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                      <Link to="/viewgallery">
-                                      <button type="button" class="btn btn-sm btn-outline-secondary">See More..</button>
-                                      </Link>
-                                    </div> 
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
-
-
-                        <div class="col">
-                          <div class="card shadow-sm">
-                            <h4 className="text-dark" ><a href="#" ></a>1. Malaysia Tour</h4>
-                            <a href="#"><img class="bd-placeholder-img card-img-top" width="100%" height="225" src={image4} /></a>
-                              <div class="card-body">
-                                <p class="card-text" > International Study Tour for Proffessional Beauticians 2024 </p>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                      <Link to="/viewgallery">
-                                      <button type="button" class="btn btn-sm btn-outline-secondary">See More..</button>
-                                      </Link>
-                                    </div> 
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
-                   
-              
+         <div class="container text-center">
+            <div class="row">
+            <h3 class="text-uppercase" style= {{ margin : "50px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Gallery</h3>
+              <div class="col">
+                <div class="card" style={{margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img src={image4} class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title" style = {{ fontWeight : "700" , margin: "20px 0px 0px 0px"}}>Malaysia Tour</h5>
+                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px", textAlign:"left" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" style = {{ margin : "40px 0px 0px 0px" }} class="btn btn-primary">See More</a>
                   </div>
-                  
                 </div>
               </div>
+
+              <div class="col">
+              <div class="card" style={{ margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img src={image4}  class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title" style = {{ fontWeight : "700" , margin: "20px 0px 0px 0px"}}>Malaysia Tour</h5>
+                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px", textAlign:"left" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" style = {{ margin : "40px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+              <div class="card" style={{ margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img src={image4}  class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title" style = {{ fontWeight : "700" , margin: "20px 0px 0px 0px"}}>Malaysia Tour</h5>
+                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px", textAlign:"left" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" style = {{ margin : "40px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
       

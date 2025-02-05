@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 // import { useState } from 'react';
 // import {NavLink,Link} from 'react-router-dom';
 
-import './home.css';
 
 import image1 from '../image/image1.png';
 import image2 from '../image/image2.png';
@@ -41,7 +40,7 @@ const HomePage = () => {
                         <div class="col">
                             <h1 class="text-uppercase" style= {{ margin : "200px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
 
-                            <p class="main" style = {{ margin : "10px 0px 0px 0px"}} >
+                            <p class="main" style = {{ margin : "10px 0px 0px 0px", textAlign:"left"}} >
                             The Commonwealth Youth Network of Sri Lanka (CYN Sri Lanka) is a dynamic organization dedicated to youth development, with a strong focus on fostering international exposure and global growth opportunities for youth across the Commonwealth. Through strategic partnerships and collaborative initiatives, we empower young leaders to drive meaningful change in their communities and beyond.
                             </p>
                         </div>
@@ -89,7 +88,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "100px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700", textAlign:"left", margin:"20px 0px 0px 20px" }}>1. Fostering International Collaboration</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>Strengthening cooperation between Sri Lankan youth and the Commonwealth to advance SDG 17 (Partnerships for the Goals) and promote global solidarity.
+                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px", textAlign:"left" }}>Strengthening cooperation between Sri Lankan youth and the Commonwealth to advance SDG 17 (Partnerships for the Goals) and promote global solidarity.
                                     Contributing to SDG 4 (Quality Education) and SDG 8 (Decent Work and Economic Growth) through shared resources, mentorship, and expertise.</p>
                                 </div>
                             </div>
@@ -97,7 +96,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700", textAlign:"left", margin:"20px 0px 0px 20px" }} >2. Establishing a Robust Sri Lankan Youth Network</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>Creating a strong and connected network of Sri Lankan youth organizations to encourage cross-cultural exchange and collaborative action.
+                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px", textAlign:"left" }}>Creating a strong and connected network of Sri Lankan youth organizations to encourage cross-cultural exchange and collaborative action.
                                     Aligning efforts with SDG 11 (Sustainable Cities and Communities) and SDG 16 (Peace, Justice, and Strong Institutions) while ensuring equal participation (SDG 10 - Reduced Inequalities).</p>
                                 </div>
                             </div>
@@ -105,7 +104,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700",textAlign:"left", margin:"20px 0px 0px 20px" }}>3. Promoting Diversity and Inclusion</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>Enhancing social cohesion by promoting cooperation among youth from diverse backgrounds across Sri Lanka.
+                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px", textAlign:"left" }}>Enhancing social cohesion by promoting cooperation among youth from diverse backgrounds across Sri Lanka.
                                     Advocating for inclusive urban planning and policies, contributing to SDG 10 (Reduced Inequalities) and SDG 16 (Peace, Justice, and Strong Institutions).</p>
                                 </div>
                             </div>
@@ -113,7 +112,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700", textAlign:"left", margin:"20px 0px 0px 20px" }}>4. Empowering Youth through Volunteerism</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>Encouraging youth engagement in volunteer initiatives that address key community challenges and support sustainable development goals.
+                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px", textAlign:"left" }}>Encouraging youth engagement in volunteer initiatives that address key community challenges and support sustainable development goals.
                                     Aligning with SDG 1 (No Poverty) and SDG 13 (Climate Action) by engaging youth in environmental conservation and economic upliftment programs.</p>
                                 </div>
                             </div>
@@ -121,7 +120,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700", textAlign:"left", margin:"20px 0px 0px 20px" }}>5. Championing Commonwealth Values</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px" }}>Upholding Commonwealth principles of gender equality, access to health and education, democracy, tolerance, respect, and understanding. <br />
+                                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px", textAlign:"left" }}>Upholding Commonwealth principles of gender equality, access to health and education, democracy, tolerance, respect, and understanding. <br />
                                     Supporting initiatives aligned with:<br />
                                     <p style = {{ margin : "20px 0px 20px 20px" }}>SDG 5 (Gender Equality)<br />
                                     SDG 3 (Good Health and Well-being)<br />
@@ -133,7 +132,7 @@ const HomePage = () => {
                             <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
                                     <h5 class="card-title" style = {{ fontWeight : "700",textAlign:"left", margin:"20px 0px 0px 20px" }}>6. Promoting Innovation & Economic Growth</h5>
-                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>Supporting youth entrepreneurship, technology-driven solutions, and sustainable business models in alignment with SDG 9 (Industry, Innovation, and Infrastructure).
+                                    <p class="card-text" style = {{ margin : "30px 20px 20px 20px", textAlign:"left" }}>Supporting youth entrepreneurship, technology-driven solutions, and sustainable business models in alignment with SDG 9 (Industry, Innovation, and Infrastructure).
                                     Encouraging skill development and employment generation to reduce inequalities (SDG 10) and promote economic opportunities (SDG 8).</p>
                                 </div>
                             </div>

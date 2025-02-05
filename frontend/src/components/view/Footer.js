@@ -3,7 +3,7 @@ import React from 'react'
 // import {NavLink,Link,useNavigate} from 'react-router-dom';
 // import axios from "axios";
 // import swal from "sweetalert";
-import './footer.css';
+
 
 import logo from '../image/cyn.png';
 
