@@ -47,7 +47,7 @@ const HomePage = () => {
                         </div>
 
                         <div class="col">
-                            <img style = {{ margin : "150px 0px 0px 0px" }} src={image1} class="card-img-top" alt="..."/>
+                            <img style = {{ margin : "170px 0px 0px 0px", width:"500px", height:"350px", objectFit: "cover" }} src={image1} class="card-img-top" alt="..."/>
                         </div>
                     </div>
                 </div>
@@ -84,6 +84,7 @@ const HomePage = () => {
 
                 <div class="container text-center">
                     <div class="row">
+                    <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Core Objectives</h3>
                         <div class="col">
                             <div class="card" style={{ borderRadius: "15px", margin: "100px 40px 40px 40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
@@ -150,25 +151,25 @@ const HomePage = () => {
                                 <p style = {{ margin : "80px 0px 60px 50px", textAlign:"left", fontWeight : "700"  }}>CYN Sri Lanka actively contributes to the following Sustainable Development Goals (SDGs): </p>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px",width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG1} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG4} class="card-img-top" alt="..."/>  
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG5} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG8} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
@@ -178,25 +179,25 @@ const HomePage = () => {
                                
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG9} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG10} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG11} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG13} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
@@ -210,13 +211,13 @@ const HomePage = () => {
                                 </div>
                                 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG16} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
                                 <div class="col">
-                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px"}}>
+                                <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG17} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
@@ -275,6 +276,8 @@ const HomePage = () => {
                 </div>
 
 
+
+
                 <div class="container text-center">
                     <div class="row">
 
@@ -314,7 +317,7 @@ const HomePage = () => {
                         </div>
 
                         <div class="col">
-                        <div class="card" style={{ borderRadius: "15px", margin: "50px 50px 50px 50px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
+                        <div class="card" style={{ borderRadius: "15px", margin: "60px 0px 40px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
                             <div class="card-body" style={{ textAlign: "left",margin: "20px" }}>
                                 <h5 class="card-title"> <i class="fa-solid fa-phone" style={{ margin: "0px 10px 0px 0px" }}></i> 0777 13 81 34 or 071 80 81 831</h5>
                                 <h5 class="card-title"> <i class="fa-solid fa-envelope" style={{ margin: "0px 10px 0px 0px" }}></i> cyn@gmail.com</h5>
@@ -329,9 +332,9 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <div class="card" style={{ borderRadius: "15px", margin: "0px 50px 0px 50px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
+                        <div class="card" style={{ borderRadius: "15px", margin: "0px 0px 0px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
                             <div class="card-body">
-                            <iframe style={{ borderRadius: "10px", width:"500px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126763.21819657992!2d79.9080448!3d6.8485119999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85457d378ccc487d%3A0xe9b4ec3e78cb3316!2sCommonwealth%20Youth%20Network%20of%20Sri%20Lanka%20-%20CYN%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1738748494245!5m2!1sen!2slk" ></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126763.21819657992!2d79.9080448!3d6.8485119999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85457d378ccc487d%3A0xe9b4ec3e78cb3316!2sCommonwealth%20Youth%20Network%20of%20Sri%20Lanka%20-%20CYN%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1738748494245!5m2!1sen!2slk" ></iframe>
                             </div>
                         </div>
 
