@@ -15,30 +15,30 @@ const PartnerCategory = () => {
              <Header/>
           
                 <div>
+
+                <div className="home-text">
+                    <h2>Partners</h2>
+                </div>
                     <div class="row pt-5 mt-5">
                         
                             <div class="col-6">
-                            <div class="card" style={{ borderRadius: "35px", margin: "0px 0px 0px 90px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                            <div class="card" style={{ borderRadius: "35px", margin: "0px 0px 0px 190px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to="/international">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">International Partners</button>
-                                    </Link>
+                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>International Partners</h5>
+                                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="/international" style = {{ margin : "90px 0px 0px 0px" }} class="btn btn-primary">International</a>
                                 </div>
-                                </div>
+                            </div>
                             </div>
                         
                         
                         
                             <div class="col-6">
-                            <div class="card" style={{ margin : "0px 90px 0px 0px" }}>
+                            <div class="card" style={{ borderRadius: "35px", margin: "0px 190px 0px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"  }}>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to="/local">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Local Partners</button>
-                                    </Link>
+                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>Local Partners</h5>
+                                    <p class="card-text" style = {{ margin : "30px 20px 0px 20px" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="/local" style = {{ margin : "90px 0px 0px 0px" }} class="btn btn-primary">Local</a>
                                 </div>
                                 </div>
                             </div>
