@@ -3,6 +3,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
+import AboutUs from './components/view/HomePage';
+import ContactUs from './components/view/HomePage';
+
 //HomePage
 import HomePage from './components/view/HomePage';
 
@@ -17,13 +20,17 @@ import Footer from './components/view/Footer';
 import SignUp from './components/view/Sign/SignUp';
 import SignIn from './components/view/Sign/SignIn';
 
+
+
 //projects
 import Programs from './components/view/Project/Programs';
 import ViewProjects from './components/view/Project/ViewProjects';
 
 //gallery
 import Gallery from './components/view/Gallery/Gallery';
-import ViewGallery from './components/view/Gallery/ViewGallery';
+import ViewGallery1 from './components/view/Gallery/ViewGallery1';
+import ViewGallery2 from './components/view/Gallery/ViewGallery2';
+import ViewGallery3 from './components/view/Gallery/ViewGallery3';
 
 //partners
 import PartnerCategory from './components/view/Partners/ParnerCategory';
@@ -40,8 +47,11 @@ function App() {
         <Routes>
 
          
-
+          
           <Route path='/' element={<HomePage />} />
+          <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='/contactus' element={<ContactUs />} />
+          
           <Route element={<Header />} />
           <Route element={<NotRegHeader />} />
           <Route element={<Footer />} />
@@ -53,12 +63,14 @@ function App() {
           <Route path='/viewproject' element={<ViewProjects />} />
 
           <Route path='/gallery' element={<Gallery />} />
-          <Route path='/viewgallery' element={<ViewGallery />} />
+          <Route path='/viewgallery1' element={<ViewGallery1 />} />
+          <Route path='/viewgallery2' element={<ViewGallery2 />} />
+          <Route path='/viewgallery3' element={<ViewGallery3 />} />
 
           <Route path='/partner' element={<PartnerCategory />} />
           <Route path='/local' element={<Local />} />
           <Route path='/international' element={<International />} />
-
+          
 
         </Routes>
       </Router>

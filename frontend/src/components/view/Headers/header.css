@@ -5,13 +5,6 @@
     font-family: sans-serif;
 }
 
-/* .outdiv{
-    width: 100vw;
-    min-height: 100vh;
-    background: #ced8ff;
-    position: fixed;
-    
-} */
 
 /* -----------------navbar------------------------*/
 
@@ -33,30 +26,32 @@
     justify-content: flex-end;
 }
 
-button{
+.action_btn{
     background-color: rgb(7, 5, 68); 
     margin-left: 10px;
     border-radius: 10px;
     padding: 6px;
     width: 90px;
-}
-
-button a{
     color: white;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
-    
 }
 
-/* .logoimg{
-    width: 160px;
-    height: auto;
-    margin-left: -100px;
-    margin-right: 10px;
-    margin-top: 80px;
+.action_btn:hover{
+    scale: 1.05;
+    color: #fff; 
+}
+
+
+.toggle_btn{
+    color:black;
+    font-size: 26px;
     cursor: pointer;
-} */
+    display: none;
+}
+
+
 
 ul{
     flex: 1;
@@ -70,9 +65,13 @@ ul li{
     cursor: pointer;
 }
 
-/* .rightside{
-    display: flex;
-    margin-left: 950px;
-}  */
+/* responsive */
+@media(max-width: 992px){
+    .navbar-navbar-nav,
+    .navbar .action_btn {
+        display: none;
+    }
+}
+    
 
 /* -----------------------------------------------*/

@@ -231,7 +231,8 @@ const HomePage = () => {
 
 
 
-
+            <div>
+            <section id="aboutus">
                 <div class="container text-center">
                     <div class="row">
                     <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Our Team</h3>
@@ -273,10 +274,12 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            </div>
 
 
-
-
+            <div>
+            <section id="contactus">
                 <div class="container text-center">
                     <div class="row">
 
@@ -341,6 +344,8 @@ const HomePage = () => {
                     </div>
 
                 </div>
+            </section>
+            </div>   
 
             <Footer/>
         </div>
