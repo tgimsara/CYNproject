@@ -30,6 +30,7 @@ import apu from '../../image/apu.png';
 import clinical from '../../image/clinical.png';
 import hospital from '../../image/hospital.png';
 import reskills from '../../image/reskills.png';
+import malaysiabeauty from '../../image/malaysiabeauty.png';
 
 
 
@@ -143,7 +144,7 @@ const International = () => {
         
                         <div class="col">
                             <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                                <img src={reskills} class="card-img-top" alt="..."/>
+                                <img src={malaysiabeauty} class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>Malaysia International Hair & Beauty Association</p>
                                 </div>

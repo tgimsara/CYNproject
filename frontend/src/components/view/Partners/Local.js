@@ -12,7 +12,6 @@ import edutourism from '../../image/edutourism.png';
 import foundation from '../../image/foundation.png';
 import lpec from '../../image/lpec.png';
 import slppca from '../../image/slppca.png';
-import tour from '../../image/tour.png';
 import youth from '../../image/youth.png';
 import youthcrop from '../../image/youthcrop.png';
 import youthsport from '../../image/youthsport.png';
@@ -152,7 +151,7 @@ const Local = () => {
 
                 <div class="col">
                     <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                        <img src={tour} class="card-img-top" alt="..."/>
+                        <img src={edutourism} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Global Study Tours Pvt Ltd</p>
                         </div>
@@ -161,7 +160,7 @@ const Local = () => {
 
                 <div class="col">
                     <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                        <img src={lpec} class="card-img-top" alt="..."/>
+                        <img src={edutourism} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>International Learning Pathways Pvt Ltd</p>
                         </div>
