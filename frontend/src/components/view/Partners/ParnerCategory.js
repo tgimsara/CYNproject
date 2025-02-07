@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 // import axios from 'axios';
 
 import Header from '../Headers/Header';
-// import international from '../../image/international.png';
-// import local from '../../image/local.png';
+import international from '../../image/international.png';
+import local from '../../image/local.png';
 
 
 const PartnerCategory = () => {
@@ -19,19 +19,19 @@ const PartnerCategory = () => {
                 <div class="row">
                 <h3 class="text-uppercase" style= {{ margin : "50px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Partners</h3>
                     <div class="col">
-                        <div class="card" style={{ borderRadius: "35px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
-                            {/* <img src={international} class="card-img-top" alt="..."/> */}
+                        <div class="card" style={{ borderRadius: "35px", margin:"40px 90px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
+                            <img src={international} class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <a href="/international" style = {{ margin : "60px 0px 0px 0px" }} class="btn btn-primary">International</a>
+                                <a href="/international" style = {{ margin : "10px 0px 10px 0px" }} class="btn btn-primary">International</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="card" style={{ borderRadius: "35px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                            {/* <img src={international} class="card-img-top" alt="..."/> */}
+                        <div class="card" style={{ borderRadius: "35px",margin:"40px 90px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                            <img src={local} class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <a href="/local" style = {{ margin : "60px 0px 0px 0px" }} class="btn btn-primary">Local</a>
+                                <a href="/local" style = {{ margin : "10px 0px 10px 0px" }} class="btn btn-primary">Local</a>
                             </div>
                         </div>
                     </div>
