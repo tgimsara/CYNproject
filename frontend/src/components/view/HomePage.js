@@ -149,25 +149,25 @@ const HomePage = () => {
                                 <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>CYN’s Commitment to the Sustainable Development Goals (SDGs)</h3>
                                 <p style = {{ margin : "80px 0px 60px 50px", textAlign:"left", fontWeight : "700"  }}>CYN Sri Lanka actively contributes to the following Sustainable Development Goals (SDGs): </p>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px",width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG1} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG4} class="card-img-top" alt="..."/>  
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG5} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG8} class="card-img-top" alt="..."/>
                                 </div>
@@ -177,25 +177,25 @@ const HomePage = () => {
                             <div class="row">
                                
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG9} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG10} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG11} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG13} class="card-img-top" alt="..."/>
                                 </div>
@@ -205,23 +205,23 @@ const HomePage = () => {
 
                             <div class="row">
                                
-                                <div class="col">
+                                <div class="col-sm-3">
                                 
                                 </div>
                                 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG16} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px" ,width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG17} class="card-img-top" alt="..."/>
                                 </div>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3">
                                 
                                 </div>
 
@@ -237,7 +237,7 @@ const HomePage = () => {
                     <div class="row">
                     <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Our Team</h3>
 
-                        <div class="col">
+                        <div class="col-sm-4">
                             <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}} >
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
@@ -249,7 +249,7 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col-sm-4">
                         <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}} >
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
@@ -261,7 +261,7 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col-sm-4">
                         <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
@@ -285,62 +285,118 @@ const HomePage = () => {
 
                     <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Contact Us</h3>
 
-                        <div class="col">
+                        <div class="col-sm-6">
                         
-                        <form style={{ borderRadius: "15px", margin: "60px 10px 40px 50px",  boxShadow: "2px 2px 10px rgba(0,0,0,0.2)", padding:"80px 50px 70px 50px"}}>
-                            <div class="mb-3">
-                                <div class="row" >
-                                    <div class="col"  style={{  margin: "0px 0px 40px 0px"}} >
-                                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"></input>
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"></input>
-                                    </div>
-                                </div>
-                            
+                        <div class="card" style={{ marginTop:"60px",marginBottom:"1rem",borderRadius: "15px", height:"30rem", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
+                            <form style={{ borderRadius: "15px", margin: "20px 10px 40px 50px", height:"30rem", padding:"80px 50px 70px 50px"}}>
                                 <div class="mb-3">
-                                    <div class="row">
-                                        <div class="col"  style={{  margin: "0px 0px 30px 0px"}}>
-                                            <input type="text" class="form-control" placeholder="Mobile No" aria-label="Mobile No"></input>
+                                    <div class="row" >
+                                        <div class="col"  style={{  margin: "0px 0px 40px 0px"}} >
+                                            <input type="text" class="form-control" placeholder="First name" aria-label="First name"></input>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" placeholder="Email" aria-label="Mobile No"></input>
+                                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"></input>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="mb-3">
+                                        <div class="row">
+                                            <div class="col"  style={{  margin: "0px 0px 30px 0px"}}>
+                                                <input type="text" class="form-control" placeholder="Mobile No" aria-label="Mobile No"></input>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Email" aria-label="Mobile No"></input>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                <label for="floatingTextarea">Message</label>
-                            </div>
-                            <button  style={{  margin: "50px 0px 0px 0px"}} type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Message</label>
+                                </div>
+                                <button  style={{  margin: "50px 0px 0px 0px"}} type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        
                         </div>
 
-                        <div class="col">
-                        <div class="card" style={{ borderRadius: "15px", margin: "60px 0px 40px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
-                            <div class="card-body" style={{ textAlign: "left",margin: "20px" }}>
-                                <h5 class="card-title"> <i class="fa-solid fa-phone" style={{ margin: "0px 10px 0px 0px" }}></i> 0777 13 81 34 or 071 80 81 831</h5>
-                                <h5 class="card-title"> <i class="fa-solid fa-envelope" style={{ margin: "0px 10px 0px 0px" }}></i> cyn@gmail.com</h5>
-                                <h5 class="card-title"> <i class="fa-solid fa-location-dot" style={{ margin: "0px 20px 0px 0px" }}></i> Kiribathgoda</h5>
-                                
-                                <h3 style={{  margin: "30px 0px 0px 0px"}}>
-                                    <a href="#" class="card-link"><i class="fa-solid fa-envelope" style={{  margin: "0px 20px 0px 0px" , color: "red"}}></i></a>
-                                    <a href="#" class="card-link"><i class="fa-brands fa-facebook" style={{ margin: "0px 20px 0px 0px" }}></i></a>
-                                    <a href="#" class="card-link"><i class="fa-brands fa-instagram" style={{ margin: "0px 20px 0px 0px" , color: "purple" }}></i></a>
-                                    <a href="#" class="card-link"><i class="fa-brands fa-whatsapp" style={{ margin: "0px 0px 0px 0px" , color: "green"}}></i></a>
-                                </h3>
-                            </div>
-                        </div>
+                        <div class="col-sm-6">
+                        
 
-                        <div class="card" style={{ borderRadius: "15px", margin: "0px 0px 0px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
+                        <div class="card" style={{ marginBottom:"1rem", marginTop:"60px",borderRadius: "15px", height:"30rem", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
                             <div class="card-body">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126763.21819657992!2d79.9080448!3d6.8485119999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85457d378ccc487d%3A0xe9b4ec3e78cb3316!2sCommonwealth%20Youth%20Network%20of%20Sri%20Lanka%20-%20CYN%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1738748494245!5m2!1sen!2slk" ></iframe>
+                            <iframe style={{ height:"100%", width:"100%" }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126763.21819657992!2d79.9080448!3d6.8485119999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85457d378ccc487d%3A0xe9b4ec3e78cb3316!2sCommonwealth%20Youth%20Network%20of%20Sri%20Lanka%20-%20CYN%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1738748494245!5m2!1sen!2slk" ></iframe>
                             </div>
                         </div>
 
                         </div>
+
+                        {/* <div class="col">
+                        
+                        <div class="card" style={{ marginTop:"20px",marginBottom:"1rem",borderRadius: "15px", height:"10rem", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
+                                <div class="d-flex card-body" style={{ textAlign: "left",margin: "20px" }}>
+                                    <div>
+                                        <h5 class="card-title"> <i class="fa-solid fa-phone" style={{ margin: "0px 10px 0px 0px" }}></i> 0777 13 81 34 or 071 80 81 831</h5>
+                                        <h5 class="card-title"> <i class="fa-solid fa-envelope" style={{ margin: "0px 10px 0px 0px" }}></i> cyn@gmail.com</h5>
+                                        <h5 class="card-title"> <i class="fa-solid fa-location-dot" style={{ margin: "0px 20px 0px 0px" }}></i> Kiribathgoda</h5>
+                                    </div>
+                                    <div class="ms-auto">
+                                    <h3 style={{  margin: "30px 0px 0px 0px"}}>
+                                        <a href="#" class="card-link"><i class="fa-solid fa-envelope" style={{  margin: "0px 20px 0px 0px" , color: "red"}}></i></a>
+                                        <a href="#" class="card-link"><i class="fa-brands fa-facebook" style={{ margin: "0px 20px 0px 0px" }}></i></a>
+                                        <a href="#" class="card-link"><i class="fa-brands fa-instagram" style={{ margin: "0px 20px 0px 0px" , color: "purple" }}></i></a>
+                                        <a href="#" class="card-link"><i class="fa-brands fa-whatsapp" style={{ margin: "0px 0px 0px 0px" , color: "green"}}></i></a>
+                                    </h3>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        </div> */}
+
+<div className="col-12 col-md-6 col-lg-12">
+      <div
+        className="card shadow-sm"
+        style={{
+          marginTop: "20px",
+          marginBottom: "1rem",
+          borderRadius: "15px",
+          height: "auto",
+        }}
+      >
+        <div className="card-body d-flex flex-column flex-md-row align-items-center text-md-start text-center p-4">
+          <div>
+            <h5 className="card-title">
+              <i className="fa-solid fa-phone me-2"></i> 0777 13 81 34 or 071 80 81 831
+            </h5>
+            <h5 className="card-title">
+              <i className="fa-solid fa-envelope me-2"></i> cyn@gmail.com
+            </h5>
+            <h5 className="card-title">
+              <i className="fa-solid fa-location-dot me-2"></i> Kiribathgoda
+            </h5>
+          </div>
+          <div className="mt-3 mt-md-0 ms-md-auto text-center">
+            <h3>
+              <a href="#" className="card-link">
+                <i className="fa-solid fa-envelope text-danger mx-2"></i>
+              </a>
+              <a href="#" className="card-link">
+                <i className="fa-brands fa-facebook mx-2"></i>
+              </a>
+              <a href="#" className="card-link">
+                <i className="fa-brands fa-instagram text-purple mx-2"></i>
+              </a>
+              <a href="#" className="card-link">
+                <i className="fa-brands fa-whatsapp text-success mx-2"></i>
+              </a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
                     </div>
 
                 </div>
