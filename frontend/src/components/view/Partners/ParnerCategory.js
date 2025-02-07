@@ -18,7 +18,7 @@ const PartnerCategory = () => {
                 <div class="row">
                 <h3 class="text-uppercase" style= {{ margin : "50px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Partners</h3>
                     <div class="col">
-                        <div class="card" style={{ borderRadius: "35px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
+                        <div class="card" style={{ borderRadius: "35px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                             <div class="card-body">
                                 <h5 class="card-title" style = {{ fontWeight : "700", margin: "20px 0px 0px 0px" }}>International Partners</h5>
                                 <p class="card-text" style = {{ margin : "30px 20px 0px 20px" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -28,7 +28,7 @@ const PartnerCategory = () => {
                     </div>
 
                     <div class="col">
-                        <div class="card" style={{ borderRadius: "35px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                        <div class="card" style={{ borderRadius: "35px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                             <div class="card-body">
                                 <h5 class="card-title" style = {{ fontWeight : "700" , margin: "20px 0px 0px 0px"}}>Local Partners</h5>
                                 <p class="card-text" style = {{ margin : "30px 20px 0px 20px" }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>

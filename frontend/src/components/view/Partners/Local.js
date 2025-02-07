@@ -30,7 +30,7 @@ const Local = () => {
             <h3 class="text-uppercase" style= {{ margin : "50px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Local Partners</h3>
 
                 <div class="col">
-                    <div class="card" style={{ margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{ margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={lpec} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>LPEC Campus Pvt Ltd</p>
@@ -39,7 +39,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={slppca} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>Sri Lanka Professioanal Psychological Counsellor’s Association</p>
@@ -48,7 +48,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={foundation} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Sri Lanka Foundation Institute</p>
@@ -57,7 +57,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={beauty} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>Ceylon Beauty and Aeatheticians Association</p>
@@ -69,16 +69,16 @@ const Local = () => {
 
             <div class="row">
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={youth} class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>National Youth Serrvices Council</p>
+                            <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>National Youth Services Council</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={youthcrop} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>National Youth Corps </p>
@@ -87,7 +87,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={youthsport} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Ministry of Youth and Sports</p>
@@ -96,7 +96,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={education} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Education Ministry</p>
@@ -108,7 +108,7 @@ const Local = () => {
 
             <div class="row">
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={british} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>British Council Sri Lanka</p>
@@ -117,7 +117,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={cricket} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>Sri Lanka Cricket Association for Physically Chalenged</p>
@@ -126,7 +126,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={citizen} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Global Citizens</p>
@@ -135,7 +135,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={edutourism} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Ceylon Edutourism Pvt Ltd</p>
@@ -147,13 +147,11 @@ const Local = () => {
 
             <div class="row">
                 <div class="col">
-                    <div class="card" style={{ margin:"20px" }}>
-                        
-                    </div>
+                    
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={tour} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 48px 0px", textAlign:"left"}}>Global Study Tours Pvt Ltd</p>
@@ -162,7 +160,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                    <div class="card" style={{margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                         <img src={lpec} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text" style = {{ fontWeight:"bold", margin: "20px 0px 24px 0px", textAlign:"left"}}>International Learning Pathways Pvt Ltd</p>
@@ -171,9 +169,7 @@ const Local = () => {
                 </div>
 
                 <div class="col">
-                    <div class="card" style={{ margin:"20px" }}>
-                        
-                    </div>
+                    
                 </div>
                 
             </div>
