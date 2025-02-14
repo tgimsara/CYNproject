@@ -354,47 +354,47 @@ const HomePage = () => {
                         
                         </div> */}
 
-<div className="col-12 col-md-6 col-lg-12">
-      <div
-        className="card shadow-sm"
-        style={{
-          marginTop: "20px",
-          marginBottom: "1rem",
-          borderRadius: "15px",
-          height: "auto",
-        }}
-      >
-        <div className="card-body d-flex flex-column flex-md-row align-items-center text-md-start text-center p-4">
-          <div>
-            <h5 className="card-title">
-              <i className="fa-solid fa-phone me-2"></i> 0777 13 81 34 or 071 80 81 831
-            </h5>
-            <h5 className="card-title">
-              <i className="fa-solid fa-envelope me-2"></i> cyn@gmail.com
-            </h5>
-            <h5 className="card-title">
-              <i className="fa-solid fa-location-dot me-2"></i> Kiribathgoda
-            </h5>
-          </div>
-          <div className="mt-3 mt-md-0 ms-md-auto text-center">
-            <h3>
-              <a href="#" className="card-link">
-                <i className="fa-solid fa-envelope text-danger mx-2"></i>
-              </a>
-              <a href="#" className="card-link">
-                <i className="fa-brands fa-facebook mx-2"></i>
-              </a>
-              <a href="#" className="card-link">
-                <i className="fa-brands fa-instagram text-purple mx-2"></i>
-              </a>
-              <a href="#" className="card-link">
-                <i className="fa-brands fa-whatsapp text-success mx-2"></i>
-              </a>
-            </h3>
-          </div>
-        </div>
-      </div>
-    </div>
+                    <div className="col-12 col-md-6 col-lg-12">
+                        <div
+                            className="card shadow-sm"
+                            style={{
+                            marginTop: "20px",
+                            marginBottom: "1rem",
+                            borderRadius: "15px",
+                            height: "auto",
+                            }}
+                        >
+                            <div className="card-body d-flex flex-column flex-md-row align-items-center text-md-start text-center p-4">
+                            <div>
+                                <h5 className="card-title">
+                                <i className="fa-solid fa-phone me-2"></i> 0777 13 81 34 or 071 80 81 831
+                                </h5>
+                                <h5 className="card-title">
+                                <i className="fa-solid fa-envelope me-2"></i> cyn@gmail.com
+                                </h5>
+                                <h5 className="card-title">
+                                <i className="fa-solid fa-location-dot me-2"></i> Kiribathgoda
+                                </h5>
+                            </div>
+                            <div className="mt-3 mt-md-0 ms-md-auto text-center">
+                                <h3>
+                                <a href="#" className="card-link">
+                                    <i className="fa-solid fa-envelope text-danger mx-2"></i>
+                                </a>
+                                <a href="#" className="card-link">
+                                    <i className="fa-brands fa-facebook mx-2"></i>
+                                </a>
+                                <a href="#" className="card-link">
+                                    <i className="fa-brands fa-instagram text-purple mx-2"></i>
+                                </a>
+                                <a href="#" className="card-link">
+                                    <i className="fa-brands fa-whatsapp text-success mx-2"></i>
+                                </a>
+                                </h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
 
 
                     </div>
