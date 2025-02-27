@@ -31,6 +31,7 @@ import Gallery from './components/view/Gallery/Gallery';
 import ViewGallery1 from './components/view/Gallery/ViewGallery1';
 import ViewGallery2 from './components/view/Gallery/ViewGallery2';
 import ViewGallery3 from './components/view/Gallery/ViewGallery3';
+import ViewEye from './components/view/Gallery/ViewEye';
 
 //partners
 import PartnerCategory from './components/view/Partners/ParnerCategory';
@@ -66,6 +67,7 @@ function App() {
           <Route path='/viewgallery1' element={<ViewGallery1 />} />
           <Route path='/viewgallery2' element={<ViewGallery2 />} />
           <Route path='/viewgallery3' element={<ViewGallery3 />} />
+          <Route path='/vieweye' element={<ViewEye />} />
 
           <Route path='/partner' element={<PartnerCategory />} />
           <Route path='/local' element={<Local />} />

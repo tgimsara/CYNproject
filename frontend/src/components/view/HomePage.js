@@ -332,27 +332,7 @@ const HomePage = () => {
 
                         </div>
 
-                        {/* <div class="col">
-                        
-                        <div class="card" style={{ marginTop:"20px",marginBottom:"1rem",borderRadius: "15px", height:"10rem", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
-                                <div class="d-flex card-body" style={{ textAlign: "left",margin: "20px" }}>
-                                    <div>
-                                        <h5 class="card-title"> <i class="fa-solid fa-phone" style={{ margin: "0px 10px 0px 0px" }}></i> 0777 13 81 34 or 071 80 81 831</h5>
-                                        <h5 class="card-title"> <i class="fa-solid fa-envelope" style={{ margin: "0px 10px 0px 0px" }}></i> cyn@gmail.com</h5>
-                                        <h5 class="card-title"> <i class="fa-solid fa-location-dot" style={{ margin: "0px 20px 0px 0px" }}></i> Kiribathgoda</h5>
-                                    </div>
-                                    <div class="ms-auto">
-                                    <h3 style={{  margin: "30px 0px 0px 0px"}}>
-                                        <a href="#" class="card-link"><i class="fa-solid fa-envelope" style={{  margin: "0px 20px 0px 0px" , color: "red"}}></i></a>
-                                        <a href="#" class="card-link"><i class="fa-brands fa-facebook" style={{ margin: "0px 20px 0px 0px" }}></i></a>
-                                        <a href="#" class="card-link"><i class="fa-brands fa-instagram" style={{ margin: "0px 20px 0px 0px" , color: "purple" }}></i></a>
-                                        <a href="#" class="card-link"><i class="fa-brands fa-whatsapp" style={{ margin: "0px 0px 0px 0px" , color: "green"}}></i></a>
-                                    </h3>
-                                    </div>
-                                </div>
-                        </div>
-                        
-                        </div> */}
+                       
 
                     <div className="col-12 col-md-6 col-lg-12">
                         <div
