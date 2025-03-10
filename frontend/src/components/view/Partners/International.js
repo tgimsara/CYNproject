@@ -32,6 +32,15 @@ import hospital from '../../image/hospital.png';
 import reskills from '../../image/reskills.png';
 import malaysiabeauty from '../../image/malaysiabeauty.png';
 
+import inti from '../../image/inti.png';
+import kl from '../../image/kl.png';
+import mhrm from '../../image/mhrm.png';
+import umw from '../../image/umw.png';
+import mte from '../../image/mte.png';
+import kgoc from '../../image/kgoc.png';
+
+
+
 
 
 const International = () => {
@@ -316,6 +325,85 @@ const International = () => {
                                     <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Reskills Skills Development Platform</p>
                                 </div>
                             </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={inti} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>INTI University & Colleges</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-sm-3">
+                            <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={kl} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Kuala Lumpur & Putrajaya Indian Chamber of Commerce</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-sm-3">
+                            <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={umw} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>University Malaya Wales</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-sm-3">
+                        <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={mhrm} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Malaysian Institute of Human Resource Management</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={mte} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Malaysian Technology Expo </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-sm-3">
+                            <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={kgoc} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Knowledge Group of Companies</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-sm-3">
+                            {/* <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={hospital} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Kuala Lumpur Hospital - Counselling Unit </p>
+                                </div>
+                            </div> */}
+                        </div>
+        
+                        <div class="col-sm-3">
+                        {/* <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
+                                <img src={reskills} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Reskills Skills Development Platform</p>
+                                </div>
+                            </div> */}
                         </div>
                         
                     </div>

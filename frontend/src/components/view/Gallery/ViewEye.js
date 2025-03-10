@@ -26,25 +26,25 @@ const ViewEye = () => {
             
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={eye1} class="card-img-top" alt="..."/>
+                                        <img src={eye1} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={eye2} class="card-img-top" alt="..."/>  
+                                        <img src={eye2} class="card-img " alt="..."/>  
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={eye3} class="card-img-top" alt="..."/>
+                                        <img src={eye3} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={eye4} class="card-img-top" alt="..."/>
+                                        <img src={eye4} class="card-img " alt="..."/>
                                     </div>
                                     </div>
                                 </div>
@@ -52,25 +52,25 @@ const ViewEye = () => {
                                 <div class="row">
                                  <div class="col">
                                     <div class="card">
-                                        <img src={eye5} class="card-img-top" alt="..."/>
+                                        <img src={eye5} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={eye6} class="card-img-top" alt="..."/>
+                                        <img src={eye6} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={eye7} class="card-img-top" alt="..."/>
+                                        <img src={eye7} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={eye} class="card-img-top" alt="..."/>
+                                        <img src={eye} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     

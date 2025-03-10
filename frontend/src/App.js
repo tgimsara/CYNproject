@@ -32,6 +32,11 @@ import ViewGallery1 from './components/view/Gallery/ViewGallery1';
 import ViewGallery2 from './components/view/Gallery/ViewGallery2';
 import ViewGallery3 from './components/view/Gallery/ViewGallery3';
 import ViewEye from './components/view/Gallery/ViewEye';
+import ViewSound from './components/view/Gallery/ViewSound';
+import ViewClub from './components/view/Gallery/ViewClub';
+import View25Blood from './components/view/Gallery/View25Blood';
+import View26Blood from './components/view/Gallery/View26Blood';
+import ViewHrm from './components/view/Gallery/ViewHrm';
 
 //partners
 import PartnerCategory from './components/view/Partners/ParnerCategory';
@@ -64,10 +69,15 @@ function App() {
           <Route path='/viewproject' element={<ViewProjects />} />
 
           <Route path='/gallery' element={<Gallery />} />
+          <Route path='/viewhrm' element={<ViewHrm />} />
           <Route path='/viewgallery1' element={<ViewGallery1 />} />
           <Route path='/viewgallery2' element={<ViewGallery2 />} />
           <Route path='/viewgallery3' element={<ViewGallery3 />} />
           <Route path='/vieweye' element={<ViewEye />} />
+          <Route path='/viewsound' element={<ViewSound />} />
+          <Route path='/viewclub' element={<ViewClub />} />
+          <Route path='/viewblood25' element={<View25Blood />} />
+          <Route path='/viewblood26' element={<View26Blood />} />
 
           <Route path='/partner' element={<PartnerCategory />} />
           <Route path='/local' element={<Local />} />

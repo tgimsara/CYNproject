@@ -44,25 +44,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={t2image1} class="card-img-top" alt="..."/>
+                                        <img src={t2image1} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image2} class="card-img-top" alt="..."/>  
+                                        <img src={t2image2} class="card-img " alt="..."/>  
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={t2image3} class="card-img-top" alt="..."/>
+                                        <img src={t2image3} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={t2image4} class="card-img-top" alt="..."/>
+                                        <img src={t2image4} class="card-img " alt="..."/>
                                     </div>
                                     </div>
                                 </div>
@@ -73,25 +73,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image5} class="card-img-top" alt="..."/>
+                                        <img src={t2image5} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image6} class="card-img-top" alt="..."/>
+                                        <img src={t2image6} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image7} class="card-img-top" alt="..."/>
+                                        <img src={t2image7} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image8} class="card-img-top" alt="..."/>
+                                        <img src={t2image8} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
@@ -104,25 +104,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image9} class="card-img-top" alt="..."/>
+                                        <img src={t2image9} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image10} class="card-img-top" alt="..."/>
+                                        <img src={t2image10} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image11} class="card-img-top" alt="..."/>
+                                        <img src={t2image11} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image12} class="card-img-top" alt="..."/>
+                                        <img src={t2image12} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
@@ -135,25 +135,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image13} class="card-img-top" alt="..."/>
+                                        <img src={t2image13} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image14} class="card-img-top" alt="..."/>
+                                        <img src={t2image14} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image15} class="card-img-top" alt="..."/>
+                                        <img src={t2image15} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image16} class="card-img-top" alt="..."/>
+                                        <img src={t2image16} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
@@ -166,25 +166,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image17} class="card-img-top" alt="..."/>
+                                        <img src={t2image17} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image18} class="card-img-top" alt="..."/>
+                                        <img src={t2image18} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image19} class="card-img-top" alt="..."/>
+                                        <img src={t2image19} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image20} class="card-img-top" alt="..."/>
+                                        <img src={t2image20} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
@@ -198,25 +198,25 @@ const ViewGallery2 = () => {
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image21} class="card-img-top" alt="..."/>
+                                        <img src={t2image21} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image22} class="card-img-top" alt="..."/>
+                                        <img src={t2image22} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image23} class="card-img-top" alt="..."/>
+                                        <img src={t2image23} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={t2image24} class="card-img-top" alt="..."/>
+                                        <img src={t2image24} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
