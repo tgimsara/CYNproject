@@ -53,11 +53,19 @@ const ViewEye = () => {
                                     </div>
                                 </div>
     
-                                {/* <div class="row">
+                                <div class="row">
                                  <div class="col">
                                     <div class="card">
-                                        <img src={m5} class="card-img " alt="..."/>
-                                    </div>
+                                        <div id="fb-root"></div>
+                                            <script async defer crossorigin="anonymous" 
+                                            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" 
+                                            nonce="randomString">
+                                            </script>
+
+                                            <div class="fb-video" data-href="https://www.facebook.com/commonwealthyouthnetworksrilanka/videos/208184007380767" 
+                                            data-width="500" data-show-text="false">
+                                            </div>
+                                        </div>
                                     </div>
     
                                     <div class="col">
@@ -78,7 +86,7 @@ const ViewEye = () => {
                                     </div>
                                     </div>
     
-                                </div> */}
+                                </div>
 
 
                                 {/* <div class="row">

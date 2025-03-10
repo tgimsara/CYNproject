@@ -11,6 +11,9 @@ import sound from '../../image/sound.jpg';
 import club from '../../image/club.jpg';
 import blood from '../../image/blood.jpeg';
 import bloodd from '../../image/bloodd.jpg';
+import kite from '../../image/kite.jpg';
+import common from '../../image/common.jpg';
+import webinar from '../../image/webinar.png';
 
 
 
@@ -97,6 +100,17 @@ const Gallery = () => {
 
 
             <div class="row">
+
+            <div class="col">
+              <div class="card" style={{width:"330px", height:"480px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img src={webinar} style ={{height:"200px"}} class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                  <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>International Online Workshop of Challenging issues and the role of Youth in New Normal  <br/><br/>  27th June 2020</h6>
+                    <a href="/webinar" style = {{ margin : "70px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
             <div class="col">
                 <div class="card" style={{width:"330px", height:"480px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
                   <img src={club} class="card-img-top" alt="..."/>
@@ -117,12 +131,42 @@ const Gallery = () => {
                 </div>
               </div>
 
+              
+
+              
+            </div>
+
+
+
+
+            
+            <div class="row">
+            <div class="col">
+              <div class="card" style={{width:"330px", height:"480px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img style ={{height:"200px"}} src={common}  class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                  <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>Commonwealth Day Celebration 2015 <br/><br/>Commonweath Youth Network, National Youth Service Council and State Ministry of Youth Affairs<br/> 09th of March 2015</h6>
+                    <a href="/viewgallery3" style = {{ margin : "60px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div> 
+
               <div class="col">
               <div class="card" style={{width:"330px", height:"480px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
-                  <img src={eye}  class="card-img-top" alt="..."/>
+              <img src={eye}  class="card-img-top" alt="..."/>
                   <div class="card-body">
                   <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>Eye Donation Registration Campaign - <br/> Alawala Raja Maha Viharaya & <br/> Sri Ariyasingharamaya at Attanagalle <br/><br/>  18th October 2013</h6>
                     <a href="/vieweye" style = {{ margin : "100px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+              <div class="card" style={{width:"330px", height:"480px", margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <img style ={{height:"200px"}} src={kite}  class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                  <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>International Kite Festival - <br/> Kite Sri Lanak<br/><br/>  2013 June</h6>
+                    {/* <a href="/viewblood25" style = {{ margin : "110px 0px 0px 0px" }} class="btn btn-primary">See More</a> */}
                   </div>
                 </div>
               </div>
