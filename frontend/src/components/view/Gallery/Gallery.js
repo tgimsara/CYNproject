@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import hrm from '../../image/hrm.png';
 import tour1 from '../../image/tour1.JPG';
 import tour2 from '../../image/tour2.JPG';
@@ -177,7 +179,7 @@ const Gallery = () => {
 
 
 
-      
+          <Footer/>
       </div>
   )
 }

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 // import axios from 'axios';
 
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import international from '../../image/international.png';
 import local from '../../image/local.png';
 
@@ -39,6 +41,7 @@ const PartnerCategory = () => {
 
             </div>
 
+        <Footer/>
           </div>
       )
 }

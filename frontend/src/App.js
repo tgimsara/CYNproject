@@ -24,7 +24,13 @@ import SignIn from './components/view/Sign/SignIn';
 
 //projects
 import Programs from './components/view/Project/Programs';
-import ViewProjects from './components/view/Project/ViewProjects';
+import ViewProjects1 from './components/view/Project/ViewProjects1';
+import ViewProjects2 from './components/view/Project/ViewProjects2';
+import ViewProjects3 from './components/view/Project/ViewProjects3';
+import ViewProjects4 from './components/view/Project/ViewProjects4';
+import ViewProjects5 from './components/view/Project/ViewProjects5';
+import ViewProjects6 from './components/view/Project/ViewProjects6';
+import ViewProjects7 from './components/view/Project/ViewProjects7';
 
 //gallery
 import Gallery from './components/view/Gallery/Gallery';
@@ -66,7 +72,13 @@ function App() {
           <Route path='/signup' element={<HomePage />} />
 
           <Route path='/program' element={<Programs />} />
-          <Route path='/viewproject' element={<ViewProjects />} />
+          <Route path='/viewproject1' element={<ViewProjects1 />} />
+          <Route path='/viewproject2' element={<ViewProjects2 />} />
+          <Route path='/viewproject3' element={<ViewProjects3 />} />
+          <Route path='/viewproject4' element={<ViewProjects4 />} />
+          <Route path='/viewproject5' element={<ViewProjects5 />} />
+          <Route path='/viewproject6' element={<ViewProjects6 />} />
+          <Route path='/viewproject7' element={<ViewProjects7 />} />
 
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/viewhrm' element={<ViewHrm />} />

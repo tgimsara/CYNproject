@@ -231,7 +231,7 @@ const HomePage = () => {
 
 
 
-            <div>
+            {/* <div>
             <section id="aboutus">
                 <div class="container text-center">
                     <div class="row">
@@ -275,7 +275,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            </div>
+            </div> */}
 
 
             <div>

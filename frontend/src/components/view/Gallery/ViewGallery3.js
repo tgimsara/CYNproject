@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import t3image1 from '../../image/t3image1.jpeg';
 import t3image2 from '../../image/t3image2.jpeg';
 import t3image3 from '../../image/t3image3.jpeg';
@@ -189,7 +191,7 @@ const ViewGallery1 = () => {
     
                             </div>
     
-
+    <Footer/>
     </div>
   )
 }

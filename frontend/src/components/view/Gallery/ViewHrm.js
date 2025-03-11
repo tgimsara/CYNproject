@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
 import Header from '../Headers/Header';
+import Footer from '../Footer';
 
 import INTI1 from '../../image/hrm/INTI1.png';
 import INTI2 from '../../image/hrm/INTI2.png';
@@ -232,7 +233,7 @@ const ViewGallery1 = () => {
     
                             </div>
     
-
+    <Footer/>
     </div>
   )
 }

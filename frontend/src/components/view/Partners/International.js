@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../Headers/Header";
+import Footer from '../Footer';
 
 import dreams from '../../image/dreams.png';
 import malayindia from '../../image/malayindia.png';
@@ -409,7 +410,7 @@ const International = () => {
                     </div>
         
                 </div>
-
+     <Footer/>
     </div>
 )
 } 

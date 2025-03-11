@@ -1,6 +1,8 @@
 import React from "react";
 
 import Header from "../Headers/Header";
+import Footer from '../Footer';
+
 import '../Partners/partner.css';
 
 import british from '../../image/british.png';
@@ -177,7 +179,7 @@ const Local = () => {
             </div>
 
         </div>
-
+        <Footer/>
     </div>
 )
 } 

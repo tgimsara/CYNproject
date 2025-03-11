@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import eye1 from '../../image/eye1.jpeg';
 import eye2 from '../../image/eye2.jpeg';
 import eye3 from '../../image/eye3.jpeg';
@@ -78,7 +80,7 @@ const ViewEye = () => {
 
                             </div>
     
-
+    <Footer/>
     </div>
   )
 }

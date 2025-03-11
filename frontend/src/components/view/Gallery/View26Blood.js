@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 // import axios from 'axios';
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import bloodd1 from '../../image/26blood/bloodd1.jpg';
 import bloodd2 from '../../image/26blood/bloodd2.jpg';
 import bloodd3 from '../../image/26blood/bloodd3.jpg';
@@ -52,7 +54,7 @@ const View26Bllod = () => {
 
                             </div>
     
-
+    <Footer/>
     </div>
   )
 }

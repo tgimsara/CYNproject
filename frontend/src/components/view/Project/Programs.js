@@ -6,6 +6,7 @@ import './ourprojects.css';
 
 
 import Header from '../Headers/Header';
+import Footer from '../Footer';
 
 
 const OurProjects = () => {
@@ -30,7 +31,7 @@ return(
                         {/* <p>
                         International leadership training and exchange programs.
                         </p> */}
-                        <Link aria-current="page" to={"/"}>View</Link>
+                        <Link aria-current="page" to={"/viewproject1"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -42,7 +43,7 @@ return(
                         {/* <p>
                         Encouraging active youth participation in social impact projects.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject2"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -54,7 +55,7 @@ return(
                         {/* <p>
                         Workshops and mentorship programs in leadership, entrepreneurship, and professional development.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject3"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -66,7 +67,7 @@ return(
                         {/* <p>
                         Supporting youth-led research and policymaking to amplify young voices in governance and social change.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject4"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -78,7 +79,7 @@ return(
                         {/* <p>
                         Strengthening global understanding through study tours, international summits, and learning partnerships.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject5"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -90,7 +91,7 @@ return(
                         {/* <p>
                         Addressing climate action (SDG 13) through youth-led sustainability projects.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject6"}>View</Link>
                         </div>
                     </div>
                     </div>
@@ -102,12 +103,13 @@ return(
                         {/* <p>
                         Addressing climate action (SDG 13) through youth-led sustainability projects.
                         </p> */}
-                        <Link aria-current="page" to={""}>View</Link>
+                        <Link aria-current="page" to={"/viewproject7"}>View</Link>
                         </div>
                     </div>
                     </div>
 
                 </div>
+                <Footer/>
           </div>
 
 )
