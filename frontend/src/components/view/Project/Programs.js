@@ -26,10 +26,10 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Global Youth Leadership Programs</h3>
-                        <p>
+                        <h3>Career Development & Skills Enhancement</h3>
+                        {/* <p>
                         International leadership training and exchange programs.
-                        </p>
+                        </p> */}
                         <Link aria-current="page" to={"/"}>View</Link>
                         </div>
                     </div>
@@ -38,10 +38,10 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Community Engagement & Volunteerism</h3>
-                        <p>
+                        <h3>Youth Recognition & Leadership Development</h3>
+                        {/* <p>
                         Encouraging active youth participation in social impact projects.
-                        </p>
+                        </p> */}
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
                     </div>
@@ -50,10 +50,10 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Capacity Building & Skill Development</h3>
-                        <p>
+                        <h3>Sports & Youth Empowerment</h3>
+                        {/* <p>
                         Workshops and mentorship programs in leadership, entrepreneurship, and professional development.
-                        </p>
+                        </p> */}
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
                     </div>
@@ -62,10 +62,10 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Policy Advocacy & Research</h3>
-                        <p>
+                        <h3>Youth Advocacy & Social Impact</h3>
+                        {/* <p>
                         Supporting youth-led research and policymaking to amplify young voices in governance and social change.
-                        </p>
+                        </p> */}
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
                     </div>
@@ -74,10 +74,10 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Cultural & Educational Exchange Programs</h3>
-                        <p>
+                        <h3>Global Exchange & Networking</h3>
+                        {/* <p>
                         Strengthening global understanding through study tours, international summits, and learning partnerships.
-                        </p>
+                        </p> */}
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
                     </div>
@@ -86,10 +86,22 @@ return(
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">
-                        <h3>Climate & Sustainability Initiatives</h3>
-                        <p>
+                        <h3>Academic & Research Excellence</h3>
+                        {/* <p>
                         Addressing climate action (SDG 13) through youth-led sustainability projects.
-                        </p>
+                        </p> */}
+                        <Link aria-current="page" to={""}>View</Link>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div className="sec-card">
+                    <div className="card-box">
+                        <div className="card-content">
+                        <h3>Youth Governance & Institutional Development</h3>
+                        {/* <p>
+                        Addressing climate action (SDG 13) through youth-led sustainability projects.
+                        </p> */}
                         <Link aria-current="page" to={""}>View</Link>
                         </div>
                     </div>
