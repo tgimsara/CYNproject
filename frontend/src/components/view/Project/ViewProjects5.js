@@ -5,8 +5,10 @@ import {NavLink,Link} from 'react-router-dom';
 
 
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import CST from '../../image/project/CST.png';
-// import CGS from '../../image/project/CGS.png';
+import CGS from '../../image/project/CGS.png';
 import CIYWS from '../../image/project/CIYWS.png';
 
 const ViewProjects5 = () => {
@@ -40,7 +42,7 @@ return(
         
                             <div class="col">
                                 <div class="card" style={{height:"630px", borderRadius: "15px",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                                    <img src={CIYWS} class="card-img-top" alt="..."/>
+                                    <img src={CGS} class="card-img-top" alt="..."/>
                                     <div class="card-body">
                                     <h5 class="card-title" style = {{textAlign:"left", fontWeight : "700" }}>Commonwealth Global Society – The World-Connected Commonwealth Group</h5><br/>
                                         <h6 class="card-subtitle mb-2 text-body-secondary" style = {{textAlign:"left" }}>A network fostering international cooperation among young professionals, offering:</h6><br/>
@@ -92,7 +94,7 @@ return(
         
                     </div>
            
-
+    <Footer/>
             
     </div>
 

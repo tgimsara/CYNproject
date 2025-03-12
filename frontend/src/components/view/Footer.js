@@ -20,18 +20,18 @@ const Footer = () => {
             <h3>Commonwealth Youth Network of Sri Lanka</h3>
             <p>CYN Sri Lanka empowers youth through global opportunities and strategic partnerships.</p>
             <p>© 2025 CYN. All Rights Reserved.</p>
-            {/* <h4>Follow Us</h4>
+            <p>0777 13 81 34 / 071 80 81 831</p>
             <div class="social-icons">
-              <a href="https://www.linkedin.com/in/saadamin662/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin"></i>
+              <a href="https://www.facebook.com/commonwealthyouthnetworksrilanka" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
               </a>
-              <a href="https://github.com/saad662" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/cynsrilanka/?hl=en" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-instagram"></i>
               </a>
-            </div> */}
+            </div>
           </div>
     
           
@@ -50,9 +50,9 @@ const Footer = () => {
                     <li class="nav-item">
                     <a class="nav-link  " aria-current="page" href="/gallery">Gallery</a>
                     </li><br/>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                     <a class="nav-link  " aria-current="page" href="#contactus">Contact Us</a>
-                    </li>
+                    </li> */}
 
                      
                  </ul>

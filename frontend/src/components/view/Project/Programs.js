@@ -97,7 +97,7 @@ return(
                     </div>
 
                     <div className="sec-card">
-                    <div className="card-box">
+                    <div className="card-box" >
                         <div className="card-content">
                         <h3>Youth Governance & Institutional Development</h3>
                         {/* <p>
@@ -109,6 +109,7 @@ return(
                     </div>
 
                 </div>
+                
                 <Footer/>
           </div>
 

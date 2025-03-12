@@ -42,7 +42,11 @@ import ViewSound from './components/view/Gallery/ViewSound';
 import ViewClub from './components/view/Gallery/ViewClub';
 import View25Blood from './components/view/Gallery/View25Blood';
 import View26Blood from './components/view/Gallery/View26Blood';
-import ViewHrm from './components/view/Gallery/ViewHrm';
+import ViewHrm from './components/view/Gallery/ViewHrm'; 
+import CDayCelebrate from './components/view/Gallery/CDayCelebrate';
+import Webinar from './components/view/Gallery/Webinar';
+import GlobalTeen from './components/view/Gallery/GlobalTeen';
+import Galadari from './components/view/Gallery/Galadari';
 
 //partners
 import PartnerCategory from './components/view/Partners/ParnerCategory';
@@ -90,6 +94,10 @@ function App() {
           <Route path='/viewclub' element={<ViewClub />} />
           <Route path='/viewblood25' element={<View25Blood />} />
           <Route path='/viewblood26' element={<View26Blood />} />
+          <Route path='/cdaycelebrate' element={<CDayCelebrate />} />
+          <Route path='/webinar' element={<Webinar />} />
+          <Route path='/global' element={<GlobalTeen />} />
+          <Route path='/galadari' element={<Galadari />} />
 
           <Route path='/partner' element={<PartnerCategory />} />
           <Route path='/local' element={<Local />} />

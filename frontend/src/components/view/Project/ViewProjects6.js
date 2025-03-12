@@ -5,6 +5,8 @@ import {NavLink,Link} from 'react-router-dom';
 
 
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 // import CIRS from '../../image/project/CIRS.png';
 import CSCS from '../../image/project/CSCS.png';
 
@@ -47,7 +49,7 @@ return(
         
                     </div>
            
-
+    <Footer/>
             
     </div>
 

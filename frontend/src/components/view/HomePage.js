@@ -350,10 +350,10 @@ const HomePage = () => {
                                 <i className="fa-solid fa-phone me-2"></i> 0777 13 81 34 or 071 80 81 831
                                 </h5>
                                 <h5 className="card-title">
-                                <i className="fa-solid fa-envelope me-2"></i> cyn@gmail.com
+                                <i className="fa-solid fa-envelope me-2"></i> cynsrilanka@gmail.com
                                 </h5>
                                 <h5 className="card-title">
-                                <i className="fa-solid fa-location-dot me-2"></i> Kiribathgoda
+                                <i className="fa-solid fa-location-dot me-2"></i> Udeshi City, Kiribathgoda
                                 </h5>
                             </div>
                             <div className="mt-3 mt-md-0 ms-md-auto text-center">
@@ -361,10 +361,10 @@ const HomePage = () => {
                                 <a href="#" className="card-link">
                                     <i className="fa-solid fa-envelope text-danger mx-2"></i>
                                 </a>
-                                <a href="#" className="card-link">
+                                <a href="https://www.facebook.com/commonwealthyouthnetworksrilanka" className="card-link">
                                     <i className="fa-brands fa-facebook mx-2"></i>
                                 </a>
-                                <a href="#" className="card-link">
+                                <a href="https://www.instagram.com/cynsrilanka/?hl=en" className="card-link">
                                     <i className="fa-brands fa-instagram text-purple mx-2"></i>
                                 </a>
                                 <a href="#" className="card-link">

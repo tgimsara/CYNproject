@@ -4,23 +4,16 @@ import { Link } from "react-router-dom";
 import Header from '../Headers/Header';
 import Footer from '../Footer';
 
-import club from '../../image/moratuwa/club.jpg';
-import m1 from '../../image/moratuwa/m1.jpg';
-import m2 from '../../image/moratuwa/m2.jpg'
-import m3 from '../../image/moratuwa/m3.jpg'
-import m4 from '../../image/moratuwa/m4.jpg'
-import m5 from '../../image/moratuwa/m5.jpg'
-import m6 from '../../image/moratuwa/m6.jpg'
-import m7 from '../../image/moratuwa/m7.jpg'
-import m8 from '../../image/moratuwa/m8.jpg'
-import m9 from '../../image/moratuwa/m9.jpg'
-import m10 from '../../image/moratuwa/m10.jpg'
-import m11 from '../../image/moratuwa/m11.jpg'
+import cele1 from '../../image/cele1.png';
+import cele2 from '../../image/cele2.png';
+import  cele3 from '../../image/cele3.png';
+import  cele4 from '../../image/cele4.png';
 
 
 
 
-const ViewEye = () => {
+
+const CDayCelebrate = () => {
 
 
   return (
@@ -32,33 +25,30 @@ const ViewEye = () => {
             
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={club} class="card-img " alt="..."/>
+                                        <img src={cele1} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card">
-                                        <img src={m2} class="card-img " alt="..."/>  
+                                        <img src={cele2} class="card-img " alt="..."/>  
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={m1} class="card-img " alt="..."/>
+                                        <img src={cele3} class="card-img " alt="..."/>
                                     </div>
                                     </div>
     
                                     <div class="col">
                                     <div class="card" >
-                                        <img src={m8} class="card-img " alt="..."/>
+                                        <img src={cele4} class="card-img " alt="..."/>
                                     </div>
                                     </div>
                                 </div>
     
                                 
-
-
-                               
 
                             </div>
     
@@ -67,4 +57,4 @@ const ViewEye = () => {
   )
 }
 
-export default ViewEye
+export default CDayCelebrate

@@ -5,6 +5,8 @@ import {NavLink,Link} from 'react-router-dom';
 
 
 import Header from '../Headers/Header';
+import Footer from '../Footer';
+
 import YLTF from '../../image/project/YLTF.png';
 import CSCS from '../../image/project/CSCS.png';
 // import CPA from '../../image/project/CPA.png';
@@ -92,7 +94,7 @@ return(
                     </div>
            
 
-            
+          <Footer/>  
     </div>
 
 )
