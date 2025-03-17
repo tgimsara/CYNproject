@@ -23,7 +23,7 @@ return(
                 </div>
 
 
-                <div id="category" className="section-container">
+                <div id="category" className="section-container ">
                     <div className="sec-card">
                     <div className="card-box">
                         <div className="card-content">

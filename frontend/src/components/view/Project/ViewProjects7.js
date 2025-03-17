@@ -9,7 +9,7 @@ import Footer from '../Footer';
 
 import YLTF from '../../image/project/YLTF.png';
 import CSCS from '../../image/project/CSCS.png';
-// import CPA from '../../image/project/CPA.png';
+import CPA from '../../image/project/CPA.png';
 
 const ViewProjects7 = () => {
 
@@ -60,7 +60,7 @@ return(
                         <div class="row">
                         <div class="col">
                                 <div class="card" style={{height:"600px", borderRadius: "15px", margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
-                                    <img src={CSCS} class="card-img-top" alt="..."/>
+                                    <img src={CPA} class="card-img-top" alt="..."/>
                                     <div class="card-body">
                                         <h5 class="card-title" style = {{textAlign:"left", fontWeight : "700" }}>Commonwealth Professional Associations in Sri Lanka</h5><br/>
                                         <h6 class="card-subtitle mb-2 text-body-secondary" style = {{textAlign:"left" }}>A professional network fostering:</h6><br/>

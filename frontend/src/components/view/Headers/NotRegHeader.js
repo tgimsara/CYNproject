@@ -44,10 +44,10 @@ return(
                 <a class="nav-link  " aria-current="page" href="#contactus">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link  " style={{ fontWeight:"700", borderRadius: "15px", boxShadow: "2px 2px 5px 2px rgba(0,0,0,0.9)", padding:"8px 15px 8px 15px"}} aria-current="page" href="#">Sign In</a>
+                <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-primary">Sign In</button></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link  " style={{ fontWeight:"700", borderRadius: "15px", boxShadow: "2px 2px 5px 2px rgba(0,0,0,0.9)", padding:"8px 15px 8px 15px"}} aria-current="page" href="#">Sign Up</a>
+                <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-primary">Sign Up</button></a>
                 </li>
 
                 

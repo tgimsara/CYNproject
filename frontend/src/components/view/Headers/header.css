@@ -9,13 +9,15 @@
 /* -----------------navbar------------------------*/
 
 .navbar{
+    position: sticky; top:0px;
+    /* backdrop-filter: blur(45px); */
     z-index: 9999;
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #ffffff;
     padding: 0% 2% 0% 7%;
     margin-top: 5px;
 }
@@ -26,6 +28,8 @@
     justify-content: flex-end;
     
 }
+
+
 
 .action_btn{
     background-color: rgb(7, 5, 68); 

@@ -23,7 +23,8 @@ return(
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav nav-underline  me-auto mb-2 mb-lg-0">
+                  
                     <li class="nav-item">
                     <a class="nav-link  " aria-current="page" href="/">Home</a>
                     </li>
@@ -42,16 +43,17 @@ return(
                     <li class="nav-item">
                     <a class="nav-link  " aria-current="page" href="#contactus">Contact Us</a>
                     </li> */}
+                    
                     <li class="nav-item">
-                    <a class="nav-link  " style={{ fontWeight:"700", borderRadius: "15px", boxShadow: "2px 2px 5px 2px rgba(0,0,0,0.9)", padding:"8px 15px 8px 15px"}} aria-current="page" href="#">Profile</a>
+                    <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-success">Profile</button></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link  " style={{ fontWeight:"700", borderRadius: "15px", boxShadow: "2px 2px 5px 2px rgba(0,0,0,0.9)", padding:"8px 15px 8px 15px"}} aria-current="page" href="#">Sign Out</a>
+                    <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-danger">Sign Out</button></a>
                     </li>
-    
+                  </ul>
                     
                     
-                </ul>
+               
 
 {/* <ul class="nav nav-underline">
   <li class="nav-item">

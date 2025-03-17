@@ -288,31 +288,31 @@ const HomePage = () => {
                         <div class="col-sm-6">
                         
                         <div class="card" style={{ marginTop:"60px",marginBottom:"1rem",borderRadius: "15px", height:"30rem", boxShadow: "2px 2px 10px rgba(0,0,0,0.2)"}}>
-                            <form style={{ borderRadius: "15px", margin: "20px 10px 40px 50px", height:"30rem", padding:"80px 50px 70px 50px"}}>
+                            <form action="https://formsubmit.co/lanka.edutourism@gmail.com" method="POST" style={{ borderRadius: "15px", margin: "20px 10px 40px 50px", height:"30rem", padding:"80px 50px 70px 50px"}}>
                                 <div class="mb-3">
                                     <div class="row" >
                                         <div class="col"  style={{  margin: "0px 0px 40px 0px"}} >
-                                            <input type="text" class="form-control" placeholder="First name" aria-label="First name"></input>
+                                            <input name="First Name" type="text" class="form-control" placeholder="First name" aria-label="First name" required></input>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"></input>
+                                            <input name="Last Name" type="text" class="form-control" placeholder="Last name" aria-label="Last name" required></input>
                                         </div>
                                     </div>
                                 
                                     <div class="mb-3">
                                         <div class="row">
                                             <div class="col"  style={{  margin: "0px 0px 30px 0px"}}>
-                                                <input type="text" class="form-control" placeholder="Mobile No" aria-label="Mobile No"></input>
+                                                <input name="Phone No:" type="number" class="form-control" placeholder="Mobile No" aria-label="Mobile No" required></input>
                                             </div>
                                             <div class="col">
-                                                <input type="text" class="form-control" placeholder="Email" aria-label="Mobile No"></input>
+                                                <input name="Email" type="email" class="form-control" placeholder="Email" aria-label="Email" required></input>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    <textarea name="Message" class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
                                     <label for="floatingTextarea">Message</label>
                                 </div>
                                 <button  style={{  margin: "50px 0px 0px 0px"}} type="submit" class="btn btn-primary">Submit</button>
@@ -353,12 +353,12 @@ const HomePage = () => {
                                 <i className="fa-solid fa-envelope me-2"></i> cynsrilanka@gmail.com
                                 </h5>
                                 <h5 className="card-title">
-                                <i className="fa-solid fa-location-dot me-2"></i> Udeshi City, Kiribathgoda
+                                <i className="fa-solid fa-location-dot me-2"></i> 2nd floor, Udeshi City, Kiribathgoda
                                 </h5>
                             </div>
                             <div className="mt-3 mt-md-0 ms-md-auto text-center">
                                 <h3>
-                                <a href="#" className="card-link">
+                                <a href="mailto:cynsrilanka@gmail.com" className="card-link">
                                     <i className="fa-solid fa-envelope text-danger mx-2"></i>
                                 </a>
                                 <a href="https://www.facebook.com/commonwealthyouthnetworksrilanka" className="card-link">
@@ -367,7 +367,7 @@ const HomePage = () => {
                                 <a href="https://www.instagram.com/cynsrilanka/?hl=en" className="card-link">
                                     <i className="fa-brands fa-instagram text-purple mx-2"></i>
                                 </a>
-                                <a href="#" className="card-link">
+                                <a href="https://wa.me/+94777138134" className="card-link">
                                     <i className="fa-brands fa-whatsapp text-success mx-2"></i>
                                 </a>
                                 </h3>

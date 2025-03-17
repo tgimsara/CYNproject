@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/commonwealthyouthnetworksrilanka" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+94777138134" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-whatsapp"></i>
               </a>
               <a href="https://www.instagram.com/cynsrilanka/?hl=en" target="_blank" rel="noopener noreferrer">
