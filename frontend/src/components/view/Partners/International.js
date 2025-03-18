@@ -12,7 +12,7 @@ import royal from '../../image/royal.png';
 import exchange from '../../image/exchange.png';
 import peace from '../../image/peace.png';
 import award from '../../image/award.png';
-import glocal from '../../image/glocal.png';
+import glocal1 from '../../image/glocal1.png';
 import msu from '../../image/msu.png';
 import esthetic from '../../image/esthetic.png';
 import tmc from '../../image/tmc.png';
@@ -145,7 +145,7 @@ const International = () => {
         
                         <div class="col-sm-3">
                             <div class="card" style={{height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
-                                <img src={glocal} class="card-img-top" alt="..."/>
+                                <img src={glocal1} class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <p class="card-text" style = {{ fontWeight:"bold", marginTop: "20px", textAlign:"left"}}>Glocal Pvt. Ltd.</p>
                                 </div>
