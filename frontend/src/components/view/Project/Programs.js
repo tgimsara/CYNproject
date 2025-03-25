@@ -17,6 +17,39 @@ return(
 
     <div>
         <Header/>
+
+        {/* <div class="container text-center">
+        <div class="row">
+        <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Key Initiatives & Programs</h3>
+            <div class="col">
+                <div class="card" style={{margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <div class="card-body">
+                    <h3 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>Career Development & Skills Enhancement</h3>
+                    <a href="/viewproject1" style = {{ margin : "90px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style={{width:"330px", height:"480px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <div class="card-body">
+                    <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>Bharat Sri Lanka higher education summit in Colombo organised by Association of Indian Universities AIU & SAPE Events & Media Pvt ltd in association with  High Commission of India to Sri Lanka and Ministry of Education Government of Sri Lanka. <br/><br/> 28th of January 2025</h6>
+                    <a href="/galadari" style = {{ margin : "15px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style={{width:"330px", height:"480px",margin:"40px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
+                  <div class="card-body">
+                    <h6 class="card-title" style = {{ fontWeight:"bold", margin: "20px 0px 0px 0px", textAlign:"left"}}>International Professional Study Tour for Professinal Psychological Counsellors - Malaysia <br/><br/> 17th to 23rd of July 2024</h6>
+                    <a href="/viewgallery1" style = {{ margin : "90px 0px 0px 0px" }} class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        </div> */}
            
                 <div className="home-text">
                 <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Key Initiatives & Programs</h3>

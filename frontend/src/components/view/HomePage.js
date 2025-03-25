@@ -241,8 +241,13 @@ const HomePage = () => {
                             <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}} >
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
-                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>Gayan Rajapaksha</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>Dr. Kusala Fernando</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Co-Founder | Consultant</h6> <br/>
+                                        <p style = {{textAlign:"left"}}>DBA(UoK), MBA(UK), MPA(PIM-USJP), PGDE(UOC), PGDEA(NIE), PGD(BCIS), LLB(OUSL), BA(Hons)(UK), CQHRM(CIPMSL), PQHRM(CIPMSL) <br/><br/>
+
+                                                                            Sri Lanka Education Administrative Service(SLEAS)<br/>
+                                                                            Principal - Gurukula College, Kelaniya 
+                                        </p>
                                     <a href="#" class="btn btn-primary">See More</a>
                                     
                                 </div>
@@ -253,8 +258,13 @@ const HomePage = () => {
                         <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}} >
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
-                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>Goyum Rupasena</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <h5 class="card-title" style = {{ fontWeight : "700" }}>Mr. Gayan Rajapaksha</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Co-Founder | Chairperson</h6> <br/>
+                                        <p style = {{textAlign:"left"}}>DBA(UoK), MBA(UK), MPA(PIM-USJP), PGDE(UOC), PGDEA(NIE), PGD(BCIS), LLB(OUSL), BA(Hons)(UK), CQHRM(CIPMSL), PQHRM(CIPMSL) <br/><br/>
+
+                                                                            Sri Lanka Education Administrative Service(SLEAS)<br/>
+                                                                            Principal - Gurukula College, Kelaniya 
+                                        </p>
                                     <a href="#" class="btn btn-primary">See More</a>
                                     
                                 </div>
@@ -265,8 +275,13 @@ const HomePage = () => {
                         <div class="card"  style={{ borderRadius: "35px", margin: "100px 20px 0px 20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                                 <img src={image2} class="card-img-top" alt="..."/>
                                 <div class="card-body">
-                                    <h5 class="card-title" style = {{ fontWeight : "700" }}>Card title</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <h5 class="card-title" style = {{ fontWeight : "700" }}>Dr. Kusala Fernando</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Co-Founder | Consultant</h6> <br/>
+                                        <p style = {{textAlign:"left"}}>DBA(UoK), MBA(UK), MPA(PIM-USJP), PGDE(UOC), PGDEA(NIE), PGD(BCIS), LLB(OUSL), BA(Hons)(UK), CQHRM(CIPMSL), PQHRM(CIPMSL) <br/><br/>
+
+                                                                            Sri Lanka Education Administrative Service(SLEAS)<br/>
+                                                                            Principal - Gurukula College, Kelaniya 
+                                        </p>
                                     <a href="#" class="btn btn-primary">See More</a>
                                     
                                 </div>

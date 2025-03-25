@@ -23,7 +23,7 @@ return(
         <div class="container text-center">
                         <div class="row">
                         <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Youth Advocacy & Social Impact</h3>
-                            <div class="col">
+                            <div class="col col-12 col-md-6 col-lg-6">
                                 <div class="card" style={{height:"630px", borderRadius: "15px", margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                                     <img src={CSD} class="card-img-top" alt="..."/>
                                     <div class="card-body">
@@ -40,7 +40,7 @@ return(
                                 </div>
                             </div>
         
-                            <div class="col">
+                            <div class="col col-12 col-md-6 col-lg-6">
                                 <div class="card" style={{height:"630px", borderRadius: "15px",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>
                                     <img src={NCLB} class="card-img-top" alt="..."/>
                                     <div class="card-body">
@@ -59,7 +59,7 @@ return(
 
 
                         <div class="row">
-                        <div class="col">
+                        <div class="col col-12 col-md-6 col-lg-6">
                                 <div class="card" style={{height:"630px", borderRadius: "15px", margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                                     <img src={CCC} class="card-img-top" alt="..."/>
                                     <div class="card-body">
