@@ -18,8 +18,9 @@ return(
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <img style={{ margin: "64px 0px 0px -60px",width: "150px", height: "150px", objectFit: "cover" }} class="logoimg" src={logo} alt="Logo"/>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <img style={{ margin: "0px",width: "100px", height: "100px", objectFit: "cover" }} class="logoimg" src={logo} alt="Logo"/>
+                           
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,12 +45,12 @@ return(
                     <a class="nav-link  " aria-current="page" href="#contactus">Contact Us</a>
                     </li> */}
                     
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                     <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-success">Profile</button></a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link disabled "  aria-disabled="true" href="#"><button  type="submit" class="btn btn-danger">Sign Out</button></a>
-                    </li>
+                    </li> */}
                   </ul>
                     
                     

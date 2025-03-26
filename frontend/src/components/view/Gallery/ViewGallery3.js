@@ -38,7 +38,7 @@ const ViewGallery1 = () => {
          <div class="container text-center">
                                 <div class="row">
             
-                                    <p style = {{ margin : "140px 0px 60px 0px", textAlign:"left", fontWeight : "700"  }}>Session with University of Cyberjaya, Malaysia</p>
+                                    <p style = {{ margin : "40px 0px 60px 0px", textAlign:"left", fontWeight : "700"  }}>Session with University of Cyberjaya, Malaysia</p>
     
                                     <div class="col">
                                     <div class="card" >

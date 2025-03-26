@@ -35,10 +35,10 @@ const HomePage = () => {
             <NotRegHeader/>
 
             
-                <div class="container text-center">
+            <div class="container text-center">
                     <div class="row">
-                        <div class="col">
-                            <h1 class="text-uppercase" style= {{ margin : "200px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
+                        <div class="col-12 col-md-6 col-lg-8">
+                            <h1 class="text-uppercase" style= {{ margin : "100px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
 
                             <p class="main" style = {{ margin : "10px 0px 0px 0px", textAlign:"left"}} >
                             The Commonwealth Youth Network of Sri Lanka (CYN Sri Lanka) is a dynamic organization dedicated to youth development, with a strong focus on fostering international exposure and global growth opportunities for youth across the Commonwealth. Through strategic partnerships and collaborative initiatives, we empower young leaders to drive meaningful change in their communities and beyond.
@@ -46,7 +46,12 @@ const HomePage = () => {
                         </div>
 
                         <div class="col">
-                            <img style = {{ margin : "170px 0px 0px 0px", width:"500px", height:"350px", objectFit: "cover" }} src={image1} class="card-img-top" alt="..."/>
+                        <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card" style={{ border: "none", margin: "120px 0px" }}>
+                                    <img style={{ width:"370px", height:"240px", objectFit: "cover"}} src={image1} class="card-img-top" alt="..."/>  
+                                </div>
+                        </div>
+                            {/* <img style = {{ margin : "70px 0px 0px 0px", width:"500px", height:"350px", objectFit: "cover" }} src={image1} class="card-img-top" alt="..."/> */}
                         </div>
                     </div>
                 </div>
@@ -55,11 +60,16 @@ const HomePage = () => {
                 <div class="container text-center">
                     <div class="row">
                         <div class="col">
-                        <img src={image2} style={{ margin: "110px 0px 0px 0px",width: "500px", height: "400px", objectFit: "cover" }} class="card-img-top" alt="..."/>
+                        <div class="col-12 col-md-6 col-lg-6">
+                                <div class="card" style={{ border: "none", margin: "30px 0px" }}>
+                                    <img style={{ width:"370px", height:"240px", objectFit: "cover"}} src={image2} class="card-img-top" alt="..."/>  
+                                </div>
+                        </div>
+                        {/* <img src={image2} style={{ margin: "110px 0px 0px 0px",width: "500px", height: "400px", objectFit: "cover" }} class="card-img-top" alt="..."/> */}
                         </div>
 
-                        <div class="col">
-                        <div class="card" style={{ borderRadius: "35px", margin: "160px 0px 50px 30px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
+                        <div class="col-12 col-md-6 col-lg-7">
+                        <div class="card" style={{ borderRadius: "35px", margin: "10px 0px 50px 30px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                             <div class="card-body">
                                 <h4 class="card-title" style = {{ fontWeight : "800" }}>Vision</h4>
                                 <p class="card-text" style = {{ margin : "30px 20px 20px 20px" }}>"To unite youth across the Commonwealth in creating a better world."</p>
@@ -76,10 +86,6 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-
-
-    
-
 
                 <div class="container text-center">
                     <div class="row">
@@ -141,15 +147,18 @@ const HomePage = () => {
                 </div>
 
 
-                
-                       
 
-                        <div class="container text-center">
-                            <div class="row">
-                                <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>CYN’s Commitment to the Sustainable Development Goals (SDGs)</h3>
-                                <p style = {{ margin : "80px 0px 60px 50px", textAlign:"left", fontWeight : "700"  }}>CYN Sri Lanka actively contributes to the following Sustainable Development Goals (SDGs): </p>
 
-                                <div class="col-sm-3">
+
+
+
+                <div class="container text-center">
+                    <div class="row">
+                    <h3 class="text-uppercase" style= {{ margin : "100px 0px 0px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>CYN’s Commitment to the Sustainable Development Goals (SDGs)</h3>
+                    <h5 style = {{ margin : "80px 0px", textAlign:"left", fontWeight : "700"  }}>CYN Sri Lanka actively contributes to the following Sustainable Development Goals (SDGs): </h5>
+                        
+                        
+                    <div class="col-sm-3">
                                 <div class="card" style={{ borderRadius: "15px", margin: "0px 40px 60px 40px",width:"200px", height:"200px", objectFit: "cover"}}>
                                     <img style={{ borderRadius: "15px"}} src={SDG1} class="card-img-top" alt="..."/>
                                 </div>
@@ -224,14 +233,15 @@ const HomePage = () => {
                                 <div class="col-sm-3">
                                 
                                 </div>
-
-                            </div>
-
-                        </div>
+                    </div>
+                </div>
 
 
 
-            {/* <div>
+
+
+
+                {/* <div>
             <section id="aboutus">
                 <div class="container text-center">
                     <div class="row">
@@ -293,7 +303,10 @@ const HomePage = () => {
             </div> */}
 
 
-            <div>
+
+
+
+                <div>
             <section id="contactus">
                 <div class="container text-center">
                     <div class="row">
@@ -397,6 +410,10 @@ const HomePage = () => {
                 </div>
             </section>
             </div>   
+
+
+                                
+
 
             <Footer/>
         </div>

@@ -48,7 +48,7 @@ const ViewGallery1 = () => {
          <div class="container text-center">
                                 <div class="row">
             
-                                    <p style = {{ margin : "140px 0px 60px 0px", textAlign:"left", fontWeight : "700"  }}>INTI International University and Colleges</p>
+                                    <p style = {{ margin : "40px 0px 60px 0px", textAlign:"left", fontWeight : "700"  }}>INTI International University and Colleges</p>
     
                                     <div class="col">
                                     <div class="card" >

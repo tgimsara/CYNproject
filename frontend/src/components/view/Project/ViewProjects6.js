@@ -22,9 +22,9 @@ return(
 
         <div class="container text-center">
                         <div class="row">
-                        <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Academic & Research Excellence</h3>
+                        <h3 class="text-uppercase" style= {{ margin : "40px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Academic & Research Excellence</h3>
                             <div class="col col-12 col-md-6 col-lg-6">
-                                <div class="card" style={{height:"600px", width:"600px", borderRadius: "15px", margin:"20px 350px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
+                                <div class="card" style={{height:"600px", width:"auto", borderRadius: "15px", margin:"20px 0px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                                     <img src={CIRS} class="card-img-top" alt="..."/>
                                     <div class="card-body">
                                         <h5 class="card-title" style = {{textAlign:"left", fontWeight : "700" }}>Colombo International Research Symposium</h5><br/>

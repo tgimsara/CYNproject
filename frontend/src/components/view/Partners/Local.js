@@ -28,7 +28,7 @@ const Local = () => {
 
         <div class="container text-center">
             <div class="row">
-            <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Local Partners</h3>
+            <h3 class="text-uppercase" style= {{ margin : "40px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Local Partners</h3>
 
                 <div class="col-sm-3">
                     <div class="card" style={{ height:"20rem",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)" }}>

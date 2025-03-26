@@ -22,7 +22,7 @@ const View26Bllod = () => {
          <Header/>
 
          <div class="container text-center">
-                                <div class="row" style= {{ margin : "180px 0px 60px 0px"}}>
+                                <div class="row" style= {{ margin : "40px 0px 60px 0px"}}>
             
                                     <div class="col">
                                     <div class="card" >

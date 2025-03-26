@@ -23,7 +23,7 @@ return(
 
         <div class="container text-center">
                         <div class="row">
-                        <h3 class="text-uppercase" style= {{ margin : "140px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Youth Recognition & Leadership Development</h3>
+                        <h3 class="text-uppercase" style= {{ margin : "40px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Youth Recognition & Leadership Development</h3>
                             <div class="col col-12 col-md-6 col-lg-6">
                                 <div class="card" style={{height:"800px", borderRadius: "15px", margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                                     <img src={CYA} class="card-img-top" alt="..."/>
