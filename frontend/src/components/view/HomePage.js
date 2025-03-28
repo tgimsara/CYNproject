@@ -37,7 +37,7 @@ const HomePage = () => {
             
             <div class="container text-center">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-8">
+                        <div class="col-12 col-lg-8">
                             <h1 class="text-uppercase" style= {{ margin : "100px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
 
                             <p class="main" style = {{ margin : "10px 0px 0px 0px", textAlign:"left"}} >
@@ -46,7 +46,7 @@ const HomePage = () => {
                         </div>
 
                         <div class="col">
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-lg-4">
                                 <div class="card" style={{ border: "none", margin: "120px 0px" }}>
                                     <img style={{ width:"370px", height:"240px", objectFit: "cover"}} src={image1} class="card-img-top" alt="..."/>  
                                 </div>
@@ -60,7 +60,7 @@ const HomePage = () => {
                 <div class="container text-center">
                     <div class="row">
                         <div class="col">
-                        <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 col-lg-5">
                                 <div class="card" style={{ border: "none", margin: "30px 0px" }}>
                                     <img style={{ width:"370px", height:"240px", objectFit: "cover"}} src={image2} class="card-img-top" alt="..."/>  
                                 </div>
@@ -68,7 +68,7 @@ const HomePage = () => {
                         {/* <img src={image2} style={{ margin: "110px 0px 0px 0px",width: "500px", height: "400px", objectFit: "cover" }} class="card-img-top" alt="..."/> */}
                         </div>
 
-                        <div class="col-12 col-md-6 col-lg-7">
+                        <div class="col-12 col-lg-7">
                         <div class="card" style={{ borderRadius: "35px", margin: "10px 0px 50px 30px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)"}}>
                             <div class="card-body">
                                 <h4 class="card-title" style = {{ fontWeight : "800" }}>Vision</h4>
