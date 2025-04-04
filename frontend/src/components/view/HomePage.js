@@ -20,7 +20,7 @@ import SDG13 from '../image/SDG13.png';
 import SDG16 from '../image/SDG16.png';
 import SDG17 from '../image/SDG17.png';
 
-import NotRegHeader from './Headers/NotRegHeader';
+import Header from './Headers/Header';
 import Footer from './Footer';
 
 
@@ -32,13 +32,13 @@ const HomePage = () => {
 
         <div>
 
-            <NotRegHeader/>
+            <Header/>
 
             
             <div class="container text-center">
                     <div class="row">
                         <div class="col-12 col-lg-8">
-                            <h1 class="text-uppercase" style= {{ margin : "100px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
+                            <h1 class="text-uppercase" style= {{ margin : "150px 0px 60px 0px", fontWeight:"bold", fontWeight:"800", textAlign:"left" }}>Commonwealth Youth Network of Sri Lanka <span style={{ color:"#00008B" }}> (CYN Sri Lanka)</span></h1>
 
                             <p class="main" style = {{ margin : "10px 0px 0px 0px", textAlign:"left"}} >
                             The Commonwealth Youth Network of Sri Lanka (CYN Sri Lanka) is a dynamic organization dedicated to youth development, with a strong focus on fostering international exposure and global growth opportunities for youth across the Commonwealth. Through strategic partnerships and collaborative initiatives, we empower young leaders to drive meaningful change in their communities and beyond.
@@ -47,7 +47,7 @@ const HomePage = () => {
 
                         <div class="col">
                         <div class="col-12 col-lg-4">
-                                <div class="card" style={{ border: "none", margin: "120px 0px" }}>
+                                <div class="card" style={{ border: "none", margin: "170px 0px" }}>
                                     <img style={{ width:"370px", height:"240px", objectFit: "cover"}} src={image1} class="card-img-top" alt="..."/>  
                                 </div>
                         </div>

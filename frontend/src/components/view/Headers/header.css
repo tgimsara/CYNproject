@@ -9,7 +9,6 @@
 /* -----------------navbar------------------------*/
 
 .navbar{
-    position: sticky; top:0px;
     z-index: 9999;
     padding: 0% 2% 0% 2%;
     /* height: 80px;
@@ -70,6 +69,8 @@ ul li{
     margin: 10px;
     cursor: pointer;
 }
+
+
 
 /* responsive */
 /* @media(max-width: 992px){

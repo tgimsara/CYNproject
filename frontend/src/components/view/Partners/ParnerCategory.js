@@ -19,7 +19,7 @@ const PartnerCategory = () => {
 
              <div class="container text-center">
                 <div class="row">
-                <h3 class="text-uppercase" style= {{ margin : "40px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Partners</h3>
+                <h3 class="text-uppercase" style= {{ margin : "130px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Partners</h3>
                     <div class="col">
                         <div class="card" style={{ borderRadius: "35px", margin:"40px 90px", boxShadow: "2px 2px 10px rgba(0,0,0,0.3)"}}>
                             <img src={international} class="card-img-top" alt="..."/>

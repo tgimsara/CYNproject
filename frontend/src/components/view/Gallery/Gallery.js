@@ -31,7 +31,10 @@ const Gallery = () => {
         
          <div class="container text-center">
             <div class="row">
-            <h3 class="text-uppercase" style= {{ margin : "40px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Gallery</h3>
+            <h3 class="text-uppercase" style= {{ margin : "130px 0px 60px 0px", fontWeight:"bold", textAlign:"center" , fontWeight : "800"}}>Gallery</h3>
+              
+            
+            
               <div class="col">
                 <div class="card" style={{width:"330px", height:"480px",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>
                   <img src={hrm} class="card-img-top" alt="..."/>
@@ -41,6 +44,8 @@ const Gallery = () => {
                   </div>
                 </div>
               </div>
+              
+              
 
               <div class="col">
                 <div class="card" style={{width:"330px", height:"480px",margin:"20px", boxShadow: "2px 2px 10px rgba(0,0,0,0.1)" }}>

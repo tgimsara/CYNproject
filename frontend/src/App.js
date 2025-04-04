@@ -11,14 +11,13 @@ import HomePage from './components/view/HomePage';
 
 //Headers
 import Header from './components/view/Headers/Header';
-import NotRegHeader from './components/view/Headers/NotRegHeader';
 
 //Footer
 import Footer from './components/view/Footer';
 
 //sign
-import SignUp from './components/view/Sign/SignUp';
-import SignIn from './components/view/Sign/SignIn';
+// import SignUp from './components/view/Sign/SignUp';
+// import SignIn from './components/view/Sign/SignIn';
 
 
 
@@ -69,11 +68,10 @@ function App() {
           <Route path='/contactus' element={<ContactUs />} />
           
           <Route element={<Header />} />
-          <Route element={<NotRegHeader />} />
           <Route element={<Footer />} />
 
-          <Route path='/signin' element={<HomePage />} />
-          <Route path='/signup' element={<HomePage />} />
+          {/* <Route path='/signin' element={<SignIn />} />
+          <Route path='/signup' element={<SignUp />} /> */}
 
           <Route path='/program' element={<Programs />} />
           <Route path='/viewproject1' element={<ViewProjects1 />} />
