@@ -269,7 +269,7 @@ const Header = () => {
                             onClick={() => setSelectedPayment('payhere')}
                           >
                             <i className="fas fa-credit-card"></i>
-                            PayHere
+                            Visa/ Master/ Amex
                           </button>
                           <button 
                             className={`payment-btn ${selectedPayment === 'bank' ? 'active' : ''}`}
