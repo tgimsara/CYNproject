@@ -15,7 +15,7 @@ const Header = () => {
 
   const handleSubscribe = () => {
     if(selectedPayment === 'payhere') {
-      window.location.href = `https://payhere.lk/pay/checkout?merchant_id=YOUR_MERCHANT_ID&return_url=YOUR_RETURN_URL&cancel_url=YOUR_CANCEL_URL&notify_url=YOUR_NOTIFY_URL&order_id=${Date.now()}&items=Annual_Membership&amount=5000&currency=LKR`;
+      window.location.href = `https://payhere.lk/pay/checkout?merchant_id=YOUR_MERCHANT_ID&return_url=YOUR_RETURN_URL&cancel_url=YOUR_CANCEL_URL&notify_url=YOUR_NOTIFY_URL&order_id=${Date.now()}&items=Annual_Membership&amount=3,600&currency=LKR`;
     } else if(selectedPayment === 'bank') {
       // Show bank details and file upload in a new modal or redirect to a form page
       navigate("/registration");
