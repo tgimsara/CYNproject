@@ -17,26 +17,28 @@ const Header = () => {
     const [address, setAddress] = useState("");
     const [whatsappnumber, setWhatsappMobileNumber] = useState("");
     const [parentnumber, setParentMobileNumber] = useState("");
-    // const [category, setCategory] = useState("");
     const [password, setPassword] = useState("");
     const [confirmpassword, setConfirmPassword] = useState("");
+    const [paymentMethod, setPaymentMethod] = useState("");
+    const [bankSlip, setBankSlip] = useState(null);
     
 
     function sendData(e){
-        const newForm={
-
-          name,
-          date,
-          gender,
-          email,
-          address,
-          whatsappnumber,
-          parentnumber,
-          // category,
-          password,
-          confirmpassword
-
-    }
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('date', date);
+        formData.append('gender', gender);
+        formData.append('email', email);
+        formData.append('address', address);
+        formData.append('whatsappnumber', whatsappnumber);
+        formData.append('parentnumber', parentnumber);
+        formData.append('password', password);
+        formData.append('confirmpassword', confirmpassword);
+        formData.append('paymentMethod', paymentMethod);
+        
+        if(paymentMethod === 'bank' && bankSlip) {
+          formData.append('bankSlip', bankSlip);
+        }
 
     if( name==='' && email === '' && password === '' && date === '' && gender==='' && address === '' && whatsappnumber === '' && parentnumber === ''  && confirmpassword === '' ) {
         swal("All Fields are empty");
@@ -58,35 +60,43 @@ const Header = () => {
         swal("Parent Mobile Number Field is empty")
     }else if(confirmpassword === ''){
       swal("Confirm Password Field is empty")
+    }else if(!paymentMethod) {
+      swal("Please select a payment method")
+    }else if(paymentMethod === 'bank' && !bankSlip) {
+      swal("Please upload bank slip")
     }   
     else{
-
-    axios.post('http://localhost:8090/User/add',newForm).then(()=>{
-
-        swal({
-        title: "Success!",
-        text: "Registered Successfully",
-        icon: 'success',
-        timer: 2000,
-        button: false,
-        });
-        const timer = setTimeout(() => {
-          window.location.reload()
-        }, 2000);                             
-    }).catch((e)=>{
-    alert(e);
-    })
-
+      if(paymentMethod === 'payhere') {
+        // Redirect to PayHere
+        window.location.href = `https://payhere.lk/pay/checkout?merchant_id=YOUR_MERCHANT_ID&return_url=YOUR_RETURN_URL&cancel_url=YOUR_CANCEL_URL&notify_url=YOUR_NOTIFY_URL&order_id=${Date.now()}&items=Annual_Membership&amount=5000&currency=LKR`;
+      } else {
+        // Send form data with bank slip
+        axios.post('http://localhost:8090/User/add', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        }).then(()=>{
+            swal({
+            title: "Success!",
+            text: "Registration Submitted Successfully",
+            icon: 'success',
+            timer: 2000,
+            button: false,
+            });
+            const timer = setTimeout(() => {
+              window.location.reload()
+            }, 2000);                             
+        }).catch((e)=>{
+            alert(e);
+        })
+      }
     }
-
     }
                
     const login = ()  => {
-
         const loginUser = {email, password};
 
         axios.post(`http://localhost:8090/User/login`,loginUser).then((res)=>{
-
             localStorage.setItem("id",res.data.id);
             localStorage.setItem("name",res.data.name);
             localStorage.setItem("email",res.data.email);
@@ -94,7 +104,7 @@ const Header = () => {
             if(res.data.status){
                 swal({
                     title: "Success!",
-                    text: "Login Successfull !",
+                    text: "Login Successful !",
                     icon: 'success',
                     timer: 2000,
                     button: false,
@@ -108,7 +118,7 @@ const Header = () => {
       }else{
                 swal({
                     title: "Warning!",
-                    text: "Login Unsuccessfull !",
+                    text: "Login Unsuccessful !",
                     icon: 'error',
                     timer: 2000,
                     button: false,
@@ -116,13 +126,12 @@ const Header = () => {
                   setEmail("");
                   setPassword("");
             }
-      
         });
-      
     };
 
-    
-
+    const handleFileUpload = (e) => {
+      setBankSlip(e.target.files[0]);
+    };
 
   return (
     <div>
@@ -174,9 +183,7 @@ const Header = () => {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
                         <form>
-
                         <div class="form-floating mb-3">
                           <input type="email" class="form-control" id="floatingInput" 
                           value={email} onChange={e => setEmail(e.target.value)} placeholder="name@example.com"/>
@@ -187,16 +194,11 @@ const Header = () => {
                           value={password} onChange={e => setPassword(e.target.value)} placeholder="Password"/>
                           <label for="floatingPassword">Password</label>
                         </div>
-                        
-
                         </form>
-
                       </div>
                       <div class="modal-footer">
-
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onClick={(e)=>login()} >Sign In</button>
-
                       </div>
                     </div>
                   </div>
@@ -210,13 +212,23 @@ const Header = () => {
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>   
+                        <h5 class="modal-title" id="signUpModalLabel">Membership Registration</h5>   
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
+                        {/* Membership Info */}
+                        <div className="card mb-4">
+                          <div className="card-body">
+                            <h5 className="card-title">Annual Membership - LKR 5000</h5>
+                            <ul>
+                              <li>Access to all programs</li>
+                              <li>Exclusive member benefits</li>
+                              <li>Priority support</li>
+                            </ul>
+                          </div>
+                        </div>
 
                         <form>
-
                         <div class="form-floating mb-3">
                           <input type="name" class="form-control" id="floatingInput" 
                           onChange={(e) => ( setName(e.target.value) )} placeholder="Name"/>
@@ -253,11 +265,61 @@ const Header = () => {
                           onChange={(e) => ( setParentMobileNumber(e.target.value) )} placeholder="Parent Mobile Number"/>
                           <label for="floatingInput">Parent Mobile Number</label>
                         </div>
-                        {/* <div class="form-floating mb-3">
-                          <input type="name" class="form-control" id="floatingInput"
-                          onChange={(e) => ( setStudent(e.target.value) )} placeholder="Student"/>
-                          <label for="floatingInput">Student</label>
-                        </div> */}
+
+                        {/* Payment Method Section */}
+                        <h6 className="mb-3">Payment Method</h6>
+                        <div className="row mb-3">
+                          <div className="col-md-6">
+                            <div className="form-check">
+                              <input 
+                                className="form-check-input" 
+                                type="radio" 
+                                name="paymentMethod" 
+                                id="bankDeposit"
+                                value="bank"
+                                onChange={(e) => setPaymentMethod(e.target.value)}
+                              />
+                              <label className="form-check-label" htmlFor="bankDeposit">
+                                Bank Deposit
+                              </label>
+                            </div>
+                            <small className="text-muted">
+                              Bank: Example Bank<br/>
+                              Account: 1234-5678-9012<br/>
+                              Name: Organization Name
+                            </small>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="form-check">
+                              <input 
+                                className="form-check-input" 
+                                type="radio" 
+                                name="paymentMethod" 
+                                id="payhere"
+                                value="payhere"
+                                onChange={(e) => setPaymentMethod(e.target.value)}
+                              />
+                              <label className="form-check-label" htmlFor="payhere">
+                                PayHere
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Bank Slip Upload */}
+                        {paymentMethod === 'bank' && (
+                          <div className="mb-3">
+                            <label htmlFor="bankSlip" className="form-label">Upload Bank Deposit Slip</label>
+                            <input 
+                              type="file" 
+                              className="form-control" 
+                              id="bankSlip"
+                              onChange={handleFileUpload}
+                              accept="image/*,.pdf"
+                            />
+                          </div>
+                        )}
+                        
                         <div class="form-floating mb-3">
                           <input type="password" class="form-control" id="floatingPassword" 
                           onChange={(e) => ( setPassword(e.target.value) )} placeholder="Password"/>
@@ -268,21 +330,18 @@ const Header = () => {
                           onChange={(e) => ( setConfirmPassword(e.target.value) )} placeholder="Confirm Password"/>
                           <label for="floatingPassword"> Confirm Password</label>
                         </div>
-                        
-
                         </form>
 
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" onClick={sendData} >Sign Up</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onClick={sendData}>Register & Pay</button>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 {/*--------------------------------------------------------- */}
-
-
 
                 </div>
             </div>
@@ -291,6 +350,5 @@ const Header = () => {
     </div>
   )
 }
-
 
 export default Header
