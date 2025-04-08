@@ -102,5 +102,178 @@ ul li{
   font-size: 0.875rem;
 }
 
+/* Your existing styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Modal Styles */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 20px 30px;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+/* Subscription Plan Styles */
+.subscription-plan {
+    text-align: center;
+    padding: 20px;
+}
+
+.plan-icon {
+    font-size: 48px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.subscription-plan h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.price {
+    margin: 30px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.price .currency {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.price .amount {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.price .period {
+    font-size: 16px;
+    color: #666;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.features li {
+    margin: 15px 0;
+    color: #666;
+    font-size: 16px;
+}
+
+.features li i {
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.payment-options {
+    margin: 30px 0;
+}
+
+.payment-options h6 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.payment-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.payment-btn {
+    padding: 12px 25px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background: white;
+    color: #666;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.payment-btn i {
+    font-size: 18px;
+}
+
+.payment-btn:hover {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.payment-btn.active {
+    border-color: #007bff;
+    background: #007bff;
+    color: white;
+}
+
+.subscribe-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.subscribe-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.subscribe-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Your existing navbar styles */
+.navbar {
+    z-index: 9999;
+    padding: 0% 2% 0% 2%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightside {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* Add Font Awesome CDN to your HTML file */
 
 /* -----------------------------------------------*/
