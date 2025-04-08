@@ -81,4 +81,26 @@ ul li{
 } */
     
 
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.text-muted {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+
 /* -----------------------------------------------*/
