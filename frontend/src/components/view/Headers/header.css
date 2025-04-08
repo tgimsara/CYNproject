@@ -306,80 +306,113 @@ ul li{
   }
 }
 
-/* Bank Deposit Form Styles */
+/* Bank Deposit Modal Styles */
+.bank-deposit-form {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
 .bank-info-card {
   background: #f8f9fa;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 20px;
   margin-bottom: 25px;
+  border: 1px solid #e9ecef;
 }
 
 .bank-info-card h6 {
-  color: #333;
+  color: #2c3e50;
   margin-bottom: 15px;
   font-weight: 600;
 }
 
 .bank-details {
-  color: #666;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
 }
 
 .bank-details p {
   margin-bottom: 8px;
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+.bank-details p:last-child {
+  margin-bottom: 0;
 }
 
 .bank-details strong {
-  color: #333;
+  color: #2c3e50;
+  margin-right: 8px;
 }
 
-.bank-deposit-form {
-  padding: 20px 0;
-}
-
+/* Form Input Styles */
 .form-floating {
   margin-bottom: 20px;
 }
 
-.form-floating input {
-  border-radius: 8px;
-  border: 1px solid #ddd;
-}
-
-.form-floating label {
-  color: #666;
-}
-
-.form-floating input:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
-.submit-btn {
+.form-control {
+  border: 1px solid #ced4da;
   padding: 12px;
-  font-size: 18px;
+  height: calc(3.5rem + 2px);
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* File Upload Styles */
+.form-label {
+  color: #495057;
   font-weight: 500;
-  border-radius: 8px;
-  background: #007bff;
+  margin-bottom: 8px;
+}
+
+input[type="file"].form-control {
+  padding: 8px;
+  height: auto;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+  background: #0056b3;
   border: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
-  background: #0056b3;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  background: #004494;
+  transform: translateY(-1px);
 }
 
-/* File Upload Styling */
-.form-control[type="file"] {
-  padding: 8px;
-  border-radius: 8px;
-  border: 1px dashed #ddd;
-  background: #f8f9fa;
+/* Modal Styles */
+.modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.form-control[type="file"]:hover {
-  border-color: #007bff;
+.modal-header {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20px 25px;
+}
+
+.modal-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.modal-body {
+  padding: 25px;
 }
 
 /* Add these new styles to your existing CSS */
