@@ -133,10 +133,10 @@ const Header = () => {
 
   return (
     <div>
-      <div className="system-info">
-        <span className="datetime">{currentDateTime}</span>
-        <span className="user-info">User: {currentUser}</span>
-      </div>
+      // <div className="system-info">
+      //   <span className="datetime">{currentDateTime}</span>
+      //   <span className="user-info">User: {currentUser}</span>
+      // </div>
       
       <nav className="navbar navbar-expand-lg bg-body-tertiary navbar" style={{ position:"fixed" , width:"100%"}}>
         <div className="container-fluid">
