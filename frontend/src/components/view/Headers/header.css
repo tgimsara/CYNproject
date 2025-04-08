@@ -256,7 +256,7 @@ ul li{
     box-shadow: none;
 }
 
-/* Your existing navbar styles */
+
 .navbar {
     z-index: 9999;
     padding: 0% 2% 0% 2%;
@@ -274,6 +274,114 @@ ul li{
     gap: 10px;
 }
 
-/* Add Font Awesome CDN to your HTML file */
+
+/* Modal Transitions */
+.modal.fade-out {
+  animation: fadeOut 0.3s ease-out;
+}
+
+.modal.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bank Deposit Form Styles */
+.bank-info-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.bank-info-card h6 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.bank-details {
+  color: #666;
+}
+
+.bank-details p {
+  margin-bottom: 8px;
+}
+
+.bank-details strong {
+  color: #333;
+}
+
+.bank-deposit-form {
+  padding: 20px 0;
+}
+
+.form-floating {
+  margin-bottom: 20px;
+}
+
+.form-floating input {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-floating label {
+  color: #666;
+}
+
+.form-floating input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submit-btn {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* File Upload Styling */
+.form-control[type="file"] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px dashed #ddd;
+  background: #f8f9fa;
+}
+
+.form-control[type="file"]:hover {
+  border-color: #007bff;
+}
+
+
 
 /* -----------------------------------------------*/
