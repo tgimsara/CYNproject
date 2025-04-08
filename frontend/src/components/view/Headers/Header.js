@@ -133,8 +133,6 @@ const Header = () => {
 
   return (
     <div>
-      
-      
       <nav className="navbar navbar-expand-lg bg-body-tertiary navbar" style={{ position:"fixed" , width:"100%"}}>
         <div className="container-fluid">
           <img style={{ margin: "0px", width: "100px", height: "100px", objectFit: "cover" }} className="logoimg" src={logo} alt="Logo"/>
